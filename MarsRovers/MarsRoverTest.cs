@@ -9,10 +9,10 @@ public class MarsRoverTest
     {
         // Arrange
         var ubicacion = new Ubicacion();
-        
+
         // Act
-        var coordenada= ubicacion.ObtenerCoordernada();
-        
+        var coordenada = ubicacion.ObtenerCoordernada();
+
         // Assert
         coordenada.Should().Be("0:0:N");
     }
@@ -23,26 +23,33 @@ public class MarsRoverTest
         // Arrange
         var ubicacion = new Ubicacion();
         // Act
-        var coordenada= ubicacion.RealizarGiro('R');
+        ubicacion.RealizarGiro('R');
         // Assert
-        coordenada.Should().Be("0:0:E");
+        ubicacion.ObtenerCoordernada().Should().Be("0:0:E");
     }
-    
 }
 
 public class Ubicacion
 {
-    const string CoordenadaInicial = "0:0:N";
+    const string CoordenadaInicial = "0:0:";
+    private char Orientacion { get; set; }
+
+    public Ubicacion()
+    {
+        Orientacion = 'N';
+    }
 
     public string ObtenerCoordernada()
     {
-        return CoordenadaInicial;
+        return CoordenadaInicial + Orientacion;
     }
 
-    public object RealizarGiro(char comando )
+    public void RealizarGiro(char comando)
     {
         if (comando == 'R')
-            return CoordenadaInicial.Replace("N", "E");
-        return CoordenadaInicial;
+        {
+            if (Orientacion == 'N')
+                Orientacion = 'E';
+        }
     }
 }
