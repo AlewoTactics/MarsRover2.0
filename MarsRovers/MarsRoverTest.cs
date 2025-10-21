@@ -41,6 +41,21 @@ public class MarsRoverTest
         ubicacion.ObtenerCoordernada().Should().Be("0:0:S");
     }
     
+    [Fact]
+    public void Si_estoy_en_el_Sur_al_girar_a_la_derecha_debe_estar_en_la_coordenada_00W()
+    {
+        // Arrange
+        var ubicacion = new Ubicacion();
+        ubicacion.RealizarGiro('R');
+        ubicacion.RealizarGiro('R');
+        
+        // Act
+        ubicacion.RealizarGiro('R');
+        // Assert
+        ubicacion.ObtenerCoordernada().Should().Be("0:0:W");
+    }
+    
+    
 }
 
 public class Ubicacion
@@ -66,6 +81,7 @@ public class Ubicacion
                 Orientacion = 'E';
             else if(Orientacion=='E')
                 Orientacion = 'S';
+            
         }
     }
 }
