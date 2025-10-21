@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="df522766-fe64-4992-a8d8-fa8d24149c16" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/MarsRovers/MarsRoverTest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MarsRovers/MarsRoverTest.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MarsRovers/Ubicacion.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MarsRovers/Ubicacion.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -56,7 +55,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1761064915068</updated>
-      <workItem from="1761064916319" duration="13447000" />
+      <workItem from="1761064916319" duration="14040000" />
     </task>
     <task id="LOCAL-00001" summary="Commit inicial">
       <option name="closed" value="true" />
@@ -266,7 +265,23 @@
       <option name="project" value="LOCAL" />
       <updated>1761081122669</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="🟩 Se inplementa giro a ka izquierda de norte a oeste">
+      <option name="closed" value="true" />
+      <created>1761081374356</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1761081374356</updated>
+    </task>
+    <task id="LOCAL-00028" summary="🟥 Si_giro_a_la_izquierda_desde_el_oeste_debe_retornar_la_coordenada_00S">
+      <option name="closed" value="true" />
+      <created>1761081696909</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1761081696909</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -276,8 +291,6 @@
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value=" Si_enviamos_comando_vacio_debe_retornar_coordena_00N" />
-    <MESSAGE value=" Si_enviamos_comando_vacio_debe_retornar_coordena_00N" />
     <MESSAGE value=" Si_enviamos_comando_R_debe_retornar_coordenada_OOE" />
     <MESSAGE value=" Si_enviamos_comando_R_debe_retornar_coordenada_OOE" />
     <MESSAGE value=" Se reutiliza la función obtener coordenada inicial para calcular el primer giro a la derecha" />
@@ -301,7 +314,9 @@
     <MESSAGE value=" Se agrega giro a la derecha de oeste a norte" />
     <MESSAGE value=" Utilidad de giros ilimitados" />
     <MESSAGE value=" giro a la izquierda" />
-    <option name="LAST_COMMIT_MESSAGE" value=" giro a la izquierda" />
+    <MESSAGE value=" Se inplementa giro a ka izquierda de norte a oeste" />
+    <MESSAGE value=" Si_giro_a_la_izquierda_desde_el_oeste_debe_retornar_la_coordenada_00S" />
+    <option name="LAST_COMMIT_MESSAGE" value=" Si_giro_a_la_izquierda_desde_el_oeste_debe_retornar_la_coordenada_00S" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
