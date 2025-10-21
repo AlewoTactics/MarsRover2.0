@@ -27,6 +27,20 @@ public class MarsRoverTest
         // Assert
         ubicacion.ObtenerCoordernada().Should().Be("0:0:E");
     }
+
+    [Fact]
+    public void Si_estoy_en_el_Este_al_girar_a_la_derecha_debe_estar_en_la_coordenada_00S()
+    {
+        // Arrange
+        var ubicacion = new Ubicacion();
+        ubicacion.RealizarGiro('R');
+        
+        // Act
+        ubicacion.RealizarGiro('R');
+        // Assert
+        ubicacion.ObtenerCoordernada().Should().Be("0:0:S");
+    }
+    
 }
 
 public class Ubicacion
