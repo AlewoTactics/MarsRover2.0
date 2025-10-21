@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="df522766-fe64-4992-a8d8-fa8d24149c16" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.MarsRovers/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MarsRovers/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MarsRovers/MarsRoverTest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MarsRovers/MarsRoverTest.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -12,8 +13,14 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DpaMonitoringSettings">
+    <option name="firstShow" value="false" />
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="mock:///Immediate Window" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProjectColorInfo"><![CDATA[{
@@ -29,6 +36,7 @@
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "cf279b28-a1df-4237-b911-d8c3cc1a875a.executor": "Debug",
     "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
     "git-widget-placeholder": "master",
     "junie.onboarding.icon.badge.shown": "true",
@@ -48,7 +56,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1761064915068</updated>
-      <workItem from="1761064916319" duration="2353000" />
+      <workItem from="1761064916319" duration="7102000" />
     </task>
     <task id="LOCAL-00001" summary="Commit inicial">
       <option name="closed" value="true" />
@@ -90,7 +98,55 @@
       <option name="project" value="LOCAL" />
       <updated>1761066830268</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="🟦 Se reutiliza la función obtener coordenada inicial para calcular el primer giro a la derecha">
+      <option name="closed" value="true" />
+      <created>1761067552758</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1761067552758</updated>
+    </task>
+    <task id="LOCAL-00007" summary="🟥 Girar a la izquierda">
+      <option name="closed" value="true" />
+      <created>1761067748614</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1761067748614</updated>
+    </task>
+    <task id="LOCAL-00008" summary="🟩 Fake giro a la izquierda">
+      <option name="closed" value="true" />
+      <created>1761067851740</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1761067851740</updated>
+    </task>
+    <task id="LOCAL-00009" summary="🟦 Se implementa swicth por ser mas practico">
+      <option name="closed" value="true" />
+      <created>1761068014406</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1761068014406</updated>
+    </task>
+    <task id="LOCAL-00010" summary="🟥 dar dos giros a la izquierda">
+      <option name="closed" value="true" />
+      <created>1761068264377</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1761068264377</updated>
+    </task>
+    <task id="LOCAL-00011" summary="🟩 Fake de girar a la izquierda dos veces">
+      <option name="closed" value="true" />
+      <created>1761068377261</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1761068377261</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -105,7 +161,13 @@
     <MESSAGE value=" Si_enviamos_comando_vacio_debe_retornar_coordena_00N" />
     <MESSAGE value=" Si_enviamos_comando_R_debe_retornar_coordenada_OOE" />
     <MESSAGE value=" Si_enviamos_comando_R_debe_retornar_coordenada_OOE" />
-    <option name="LAST_COMMIT_MESSAGE" value=" Si_enviamos_comando_R_debe_retornar_coordenada_OOE" />
+    <MESSAGE value=" Se reutiliza la función obtener coordenada inicial para calcular el primer giro a la derecha" />
+    <MESSAGE value=" Girar a la izquierda" />
+    <MESSAGE value=" Fake giro a la izquierda" />
+    <MESSAGE value=" Se implementa swicth por ser mas practico" />
+    <MESSAGE value=" dar dos giros a la izquierda" />
+    <MESSAGE value=" Fake de girar a la izquierda dos veces" />
+    <option name="LAST_COMMIT_MESSAGE" value=" Fake de girar a la izquierda dos veces" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
