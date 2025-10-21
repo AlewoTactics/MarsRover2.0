@@ -39,6 +39,7 @@ public class MarsRoverTest
         {
             "R" => posicionInicial.Replace("N", "E"),
             "L" => posicionInicial.Replace("N", "W"),
+            "LL" => posicionInicial.Replace("N", "S"),
             _ => posicionInicial
         };
     }
