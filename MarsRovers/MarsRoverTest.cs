@@ -39,8 +39,10 @@ public class Ubicacion
         return CoordenadaInicial;
     }
 
-    public object RealizarGiro(char c)
+    public object RealizarGiro(char comando )
     {
-        throw new NotImplementedException();
+        if (comando == 'R')
+            return CoordenadaInicial.Replace("N", "E");
+        return CoordenadaInicial;
     }
 }
