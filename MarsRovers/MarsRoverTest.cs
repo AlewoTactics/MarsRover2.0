@@ -17,7 +17,7 @@ public class Ubicacion
 {
     public string ObtenerCoordernada()
     {
-        throw new NotImplementedException();
+        return "0:0:N";
     }
 }
 
