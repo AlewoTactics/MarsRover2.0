@@ -1,39 +1,62 @@
 ﻿namespace MarsRovers;
 
+public enum PuntoCardinal
+{
+    Norte = 'N',
+    Este = 'E',
+    Sur = 'S',
+    Oeste = 'W'
+}
+
+public enum Giro
+{
+    Derecha = 'R',
+    Izquierda = 'L',
+}
+
+
 public class Ubicacion
 {
     const string CoordenadaInicial = "0:0:";
-    private char Orientacion { get; set; }
+    private PuntoCardinal Orientacion { get; set; }
 
     public Ubicacion()
     {
-        Orientacion = 'N';
+        Orientacion = PuntoCardinal.Norte;
     }
 
     public string ObtenerCoordernada()
     {
-        return CoordenadaInicial + Orientacion;
+        return CoordenadaInicial + (char)Orientacion;
     }
 
-    public void RealizarGiro(char comando)
+    public void RealizarGiro(Giro comando)
     {
-        if (comando == 'R')
+        if (comando == Giro.Derecha)
+            GirarDerecha();
+        else if (comando == Giro.Izquierda) 
+            GirarIzquierda();
+    }
+
+    private void GirarIzquierda()
+    {
+        Orientacion = Orientacion switch
         {
-            Orientacion = Orientacion switch
-            {
-                'N' => 'E',
-                'E' => 'S',
-                'S' => 'W',
-                'W' => 'N',
-                _ => Orientacion
-            };
-        }
-        else if (comando == 'L')
+            PuntoCardinal.Norte => PuntoCardinal.Oeste,
+            PuntoCardinal.Oeste => PuntoCardinal.Sur,
+            _ => Orientacion
+        };
+    }
+
+    private void GirarDerecha()
+    {
+        Orientacion = Orientacion switch
         {
-            if (Orientacion == 'N')
-                Orientacion = 'W';
-            else if (Orientacion == 'W')
-                Orientacion = 'S';
-        }
+            PuntoCardinal.Norte => PuntoCardinal.Este,
+            PuntoCardinal.Este => PuntoCardinal.Sur,
+            PuntoCardinal.Sur => PuntoCardinal.Oeste,
+            PuntoCardinal.Oeste => PuntoCardinal.Norte,
+            _ => Orientacion
+        };
     }
 }

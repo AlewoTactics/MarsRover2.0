@@ -43,7 +43,7 @@ public class MarsRoverTest
         var ubicacion = new Ubicacion();
         
         //act
-        ubicacion.RealizarGiro('L');
+        ubicacion.RealizarGiro(Giro.Izquierda);
         
         //assert
         ubicacion.ObtenerCoordernada().Should().Be("0:0:W");
@@ -54,10 +54,10 @@ public class MarsRoverTest
     {
         // Arrage
         var ubicacion = new Ubicacion();
-        ubicacion.RealizarGiro('L');
+        ubicacion.RealizarGiro(Giro.Izquierda);
         
         // Act
-        ubicacion.RealizarGiro('L');
+        ubicacion.RealizarGiro(Giro.Izquierda);
         
         // Arrange
         ubicacion.ObtenerCoordernada().Should().Be("0:0:S");
@@ -73,7 +73,7 @@ public class Utilidades
     {
         for (var iteracion = 0; iteracion < numeroGiros; iteracion++)
         {
-            Ubicacion.RealizarGiro('R');
+            Ubicacion.RealizarGiro(Giro.Derecha);
         }
     }
 }
