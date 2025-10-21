@@ -20,7 +20,7 @@ public class MarsRoverTest
 
     private object Girar(string s)
     {
-        throw new NotImplementedException();
+        return "0:0:E";
     }
 
     private string ObtenerCoordenadaInicial()
