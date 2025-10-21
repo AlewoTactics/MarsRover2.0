@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="df522766-fe64-4992-a8d8-fa8d24149c16" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.MarsRovers/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MarsRovers/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MarsRovers/MarsRoverTest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MarsRovers/MarsRoverTest.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -56,7 +55,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1761064915068</updated>
-      <workItem from="1761064916319" duration="7102000" />
+      <workItem from="1761064916319" duration="11503000" />
     </task>
     <task id="LOCAL-00001" summary="Commit inicial">
       <option name="closed" value="true" />
@@ -146,7 +145,87 @@
       <option name="project" value="LOCAL" />
       <updated>1761068377261</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="🟥 Creacion del objeto ubicacion para obtener coordenas actuales">
+      <option name="closed" value="true" />
+      <created>1761075579208</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1761075579208</updated>
+    </task>
+    <task id="LOCAL-00013" summary="🟩 se establece ubicacion inicial">
+      <option name="closed" value="true" />
+      <created>1761075754464</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1761075754464</updated>
+    </task>
+    <task id="LOCAL-00014" summary="🟦 Se establece constante para la coordenada inicial">
+      <option name="closed" value="true" />
+      <created>1761075900232</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1761075900232</updated>
+    </task>
+    <task id="LOCAL-00015" summary="🟥 realizar un giro a la derecha">
+      <option name="closed" value="true" />
+      <created>1761076653956</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1761076653956</updated>
+    </task>
+    <task id="LOCAL-00016" summary="🟩 Se implementa giro a la derecha a partir de la posicion inicial">
+      <option name="closed" value="true" />
+      <created>1761077249479</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1761077249479</updated>
+    </task>
+    <task id="LOCAL-00017" summary="🟦 Se crea construtor que inicializa la orientacion inicial, y se ajusta el metodo que obtiene la cordenada actual">
+      <option name="closed" value="true" />
+      <created>1761078331162</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1761078331163</updated>
+    </task>
+    <task id="LOCAL-00018" summary="🟥 Si_estoy_en_el_Este_al_girar_a_la_derecha_debe_estar_en_la_coordenada_00S">
+      <option name="closed" value="true" />
+      <created>1761078942268</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1761078942268</updated>
+    </task>
+    <task id="LOCAL-00019" summary="🟩 Se agrega caso para que cuando orientación sea E y haya un giro a la derecha  la orientación sea S">
+      <option name="closed" value="true" />
+      <created>1761079050553</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1761079050553</updated>
+    </task>
+    <task id="LOCAL-00020" summary="🟥 Si_estoy_en_el_Sur_al_girar_a_la_derecha_debe_estar_en_la_coordenada_00W">
+      <option name="closed" value="true" />
+      <created>1761079212931</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1761079212931</updated>
+    </task>
+    <task id="LOCAL-00021" summary="🟩 se agrega caso de giro a la derecha para el oeste desde direccion sur">
+      <option name="closed" value="true" />
+      <created>1761079315597</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1761079315597</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -167,7 +246,17 @@
     <MESSAGE value=" Se implementa swicth por ser mas practico" />
     <MESSAGE value=" dar dos giros a la izquierda" />
     <MESSAGE value=" Fake de girar a la izquierda dos veces" />
-    <option name="LAST_COMMIT_MESSAGE" value=" Fake de girar a la izquierda dos veces" />
+    <MESSAGE value=" Creacion del objeto ubicacion para obtener coordenas actuales" />
+    <MESSAGE value=" se establece ubicacion inicial" />
+    <MESSAGE value=" Se establece constante para la coordenada inicial" />
+    <MESSAGE value=" realizar un giro a la derecha" />
+    <MESSAGE value=" Se implementa giro a la derecha a partir de la posicion inicial" />
+    <MESSAGE value=" Se crea construtor que inicializa la orientacion inicial, y se ajusta el metodo que obtiene la cordenada actual" />
+    <MESSAGE value=" Si_estoy_en_el_Este_al_girar_a_la_derecha_debe_estar_en_la_coordenada_00S" />
+    <MESSAGE value=" Se agrega caso para que cuando orientación sea E y haya un giro a la derecha  la orientación sea S" />
+    <MESSAGE value=" Si_estoy_en_el_Sur_al_girar_a_la_derecha_debe_estar_en_la_coordenada_00W" />
+    <MESSAGE value=" se agrega caso de giro a la derecha para el oeste desde direccion sur" />
+    <option name="LAST_COMMIT_MESSAGE" value=" se agrega caso de giro a la derecha para el oeste desde direccion sur" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

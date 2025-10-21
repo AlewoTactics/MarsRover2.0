@@ -77,12 +77,13 @@ public class Ubicacion
     {
         if (comando == 'R')
         {
-            if (Orientacion == 'N')
-                Orientacion = 'E';
-            else if(Orientacion=='E')
-                Orientacion = 'S';
-            else if (Orientacion == 'S')
-                Orientacion = 'W';
+            Orientacion = Orientacion switch
+            {
+                'N' => 'E',
+                'E' => 'S',
+                'S' => 'W',
+                _ => Orientacion
+            };
         }
     }
 }
