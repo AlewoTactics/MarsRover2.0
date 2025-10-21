@@ -25,6 +25,13 @@ public class MarsRoverTest
         resultado.Should().Be("0:0:W");
     }
 
+    [Fact]
+    public void Si_enviamos_un_comando_con_LL_debe_retornar_coordenada_00S_desde_la_posicion_inicial()
+    {
+        var resultado = Girar("LL");
+        resultado.Should().Be("0:0:S");
+    }
+
     private string Girar(string comando)
     {
         var posicionInicial = ObtenerCoordenadaInicial();
