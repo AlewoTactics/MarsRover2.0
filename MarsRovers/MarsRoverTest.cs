@@ -81,7 +81,8 @@ public class Ubicacion
                 Orientacion = 'E';
             else if(Orientacion=='E')
                 Orientacion = 'S';
-            
+            else if (Orientacion == 'S')
+                Orientacion = 'W';
         }
     }
 }
