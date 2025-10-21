@@ -44,6 +44,7 @@ public class Ubicacion
         {
             PuntoCardinal.Norte => PuntoCardinal.Oeste,
             PuntoCardinal.Oeste => PuntoCardinal.Sur,
+            PuntoCardinal.Sur => PuntoCardinal.Este,
             _ => Orientacion
         };
     }
