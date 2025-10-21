@@ -10,15 +10,14 @@ public class MarsRoverTest
         var ubicacion = new Ubicacion();
         ubicacion.ObtenerCoordernada().Should().Be("0:0:N");
     }
-    
 }
 
 public class Ubicacion
 {
+    const string CoordenadaInicial = "0:0:N";
+
     public string ObtenerCoordernada()
     {
-        return "0:0:N";
+        return CoordenadaInicial;
     }
 }
-
-
