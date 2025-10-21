@@ -35,8 +35,18 @@ public class MarsRoverTest
         //assert
         utilidadesUbicacion.Ubicacion.ObtenerCoordernada().Should().Be(orientacionEsperada);
     }
-    
-    
+
+    [Fact]
+    public void si_giro_a_la_izquierda_desde_el_norte_debe_retornar_la_coordenada_00W()
+    {
+        //arrange
+        var ubicacion = new Ubicacion();
+        
+        //act
+        ubicacion.RealizarGiro('L');
+        //asert
+        ubicacion.ObtenerCoordernada().Should().Be("0:0:W");
+    }
     
 }
 
