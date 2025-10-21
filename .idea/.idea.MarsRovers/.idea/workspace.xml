@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="df522766-fe64-4992-a8d8-fa8d24149c16" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/MarsRovers/UnitTest1.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MarsRovers/UnitTest1.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MarsRovers/MarsRoverTest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MarsRovers/MarsRoverTest.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +48,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1761064915068</updated>
-      <workItem from="1761064916319" duration="1160000" />
+      <workItem from="1761064916319" duration="2353000" />
     </task>
     <task id="LOCAL-00001" summary="Commit inicial">
       <option name="closed" value="true" />
@@ -58,7 +58,39 @@
       <option name="project" value="LOCAL" />
       <updated>1761065945492</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="🟩 Si_enviamos_comando_vacio_debe_retornar_coordena_00N">
+      <option name="closed" value="true" />
+      <created>1761066143077</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1761066143077</updated>
+    </task>
+    <task id="LOCAL-00003" summary="🟦 Si_enviamos_comando_vacio_debe_retornar_coordena_00N">
+      <option name="closed" value="true" />
+      <created>1761066249128</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1761066249128</updated>
+    </task>
+    <task id="LOCAL-00004" summary="🟥 Si_enviamos_comando_R_debe_retornar_coordenada_OOE">
+      <option name="closed" value="true" />
+      <created>1761066717588</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1761066717588</updated>
+    </task>
+    <task id="LOCAL-00005" summary="🟩 Si_enviamos_comando_R_debe_retornar_coordenada_OOE">
+      <option name="closed" value="true" />
+      <created>1761066830268</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1761066830268</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -69,7 +101,11 @@
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="Commit inicial" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit inicial" />
+    <MESSAGE value=" Si_enviamos_comando_vacio_debe_retornar_coordena_00N" />
+    <MESSAGE value=" Si_enviamos_comando_vacio_debe_retornar_coordena_00N" />
+    <MESSAGE value=" Si_enviamos_comando_R_debe_retornar_coordenada_OOE" />
+    <MESSAGE value=" Si_enviamos_comando_R_debe_retornar_coordenada_OOE" />
+    <option name="LAST_COMMIT_MESSAGE" value=" Si_enviamos_comando_R_debe_retornar_coordenada_OOE" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

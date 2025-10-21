@@ -18,9 +18,12 @@ public class MarsRoverTest
         resultado.Should().Be("0:0:E");
     }
 
-    private object Girar(string s)
+    private string Girar(string comando)
     {
-        return "0:0:E";
+        var posicionInicial = ObtenerCoordenadaInicial();
+        if (comando == "R")
+            return posicionInicial.Replace("N", "E");
+        return posicionInicial;
     }
 
     private string ObtenerCoordenadaInicial()
