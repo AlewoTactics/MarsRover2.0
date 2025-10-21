@@ -34,13 +34,13 @@ public class MarsRoverTest
         // Arrange
         var ubicacion = new Ubicacion();
         ubicacion.RealizarGiro('R');
-        
+
         // Act
         ubicacion.RealizarGiro('R');
         // Assert
         ubicacion.ObtenerCoordernada().Should().Be("0:0:S");
     }
-    
+
     [Fact]
     public void Si_estoy_en_el_Sur_al_girar_a_la_derecha_debe_estar_en_la_coordenada_00W()
     {
@@ -48,14 +48,29 @@ public class MarsRoverTest
         var ubicacion = new Ubicacion();
         ubicacion.RealizarGiro('R');
         ubicacion.RealizarGiro('R');
-        
+
         // Act
         ubicacion.RealizarGiro('R');
         // Assert
         ubicacion.ObtenerCoordernada().Should().Be("0:0:W");
     }
-    
-    
+
+    [Fact]
+    public void Si_estoy_en_el_oeste_y_giro_derecha_debe_estar_en_la_coordenada_00N()
+    {
+        // Arrange
+        var ubicacion = new Ubicacion();
+        ubicacion.RealizarGiro('R');
+        ubicacion.RealizarGiro('R');
+        ubicacion.RealizarGiro('R');
+
+        // Act
+        ubicacion.RealizarGiro('R');
+        // Assert
+        ubicacion.ObtenerCoordernada().Should().Be("0:0:N");
+        
+    }
+
 }
 
 public class Ubicacion
