@@ -64,6 +64,8 @@ public class Ubicacion
         {
             if (Orientacion == 'N')
                 Orientacion = 'E';
+            else if(Orientacion=='E')
+                Orientacion = 'S';
         }
     }
 }
