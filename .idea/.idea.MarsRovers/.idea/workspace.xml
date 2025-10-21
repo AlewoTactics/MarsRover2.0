@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="df522766-fe64-4992-a8d8-fa8d24149c16" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/MarsRovers/MarsRoverTest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MarsRovers/MarsRoverTest.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MarsRovers/Ubicacion.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MarsRovers/Ubicacion.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +55,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1761064915068</updated>
-      <workItem from="1761064916319" duration="15874000" />
+      <workItem from="1761064916319" duration="16428000" />
     </task>
     <task id="LOCAL-00001" summary="Commit inicial">
       <option name="closed" value="true" />
@@ -297,7 +297,31 @@
       <option name="project" value="LOCAL" />
       <updated>1761083566532</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="🟥 girar a la izquierda desde el sur">
+      <option name="closed" value="true" />
+      <created>1761083820869</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1761083820869</updated>
+    </task>
+    <task id="LOCAL-00032" summary="🟩 cardinalidad sur a este">
+      <option name="closed" value="true" />
+      <created>1761083922657</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1761083922657</updated>
+    </task>
+    <task id="LOCAL-00033" summary="🟥 Giro a izquierda desde el este">
+      <option name="closed" value="true" />
+      <created>1761084085683</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1761084085683</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -307,9 +331,6 @@
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value=" Se reutiliza la función obtener coordenada inicial para calcular el primer giro a la derecha" />
-    <MESSAGE value=" Girar a la izquierda" />
-    <MESSAGE value=" Fake giro a la izquierda" />
     <MESSAGE value=" Se implementa swicth por ser mas practico" />
     <MESSAGE value=" dar dos giros a la izquierda" />
     <MESSAGE value=" Fake de girar a la izquierda dos veces" />
@@ -332,7 +353,10 @@
     <MESSAGE value=" Si_giro_a_la_izquierda_desde_el_oeste_debe_retornar_la_coordenada_00S" />
     <MESSAGE value=" Se agrega giro a la izquierda desde el oeste al sur" />
     <MESSAGE value=" Se realiza tipado de los puntos cardinales y los giros y se ajustan test" />
-    <option name="LAST_COMMIT_MESSAGE" value=" Se realiza tipado de los puntos cardinales y los giros y se ajustan test" />
+    <MESSAGE value=" girar a la izquierda desde el sur" />
+    <MESSAGE value=" cardinalidad sur a este" />
+    <MESSAGE value=" Giro a izquierda desde el este" />
+    <option name="LAST_COMMIT_MESSAGE" value=" Giro a izquierda desde el este" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -349,6 +373,19 @@
           <properties exception="System.Threading.ThreadAbortException" breakIfHandledByOtherCode="false" displayValue="System.Threading.ThreadAbortException" />
           <option name="timeStamp" value="3" />
         </breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/MarsRovers/MarsRoverTest.cs</url>
+          <line>84</line>
+          <properties documentPath="C:\Users\daniel.melo\Documents\Cosmos\MarsRovers2.0\MarsRovers\MarsRovers\MarsRoverTest.cs" containingFunctionPresentation="Method 'Si_giro_a_la_izquierda_desde_el_este_debe_retornar_la_coordenada_00N'">
+            <startOffsets>
+              <option value="2252" />
+            </startOffsets>
+            <endOffsets>
+              <option value="2291" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
