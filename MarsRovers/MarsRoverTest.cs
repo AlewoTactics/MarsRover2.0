@@ -33,63 +33,7 @@ public class MarsRoverTest
         utilidadesUbicacion.RealizarGirosDerecha(cantidadGiros);
 
         //assert
-        utilidadesUbicacion.Ubicacion.ObtenerCoordernada().Should().Be(orientacionEsperada);
-    }
-
-    [Fact]
-    public void si_giro_a_la_izquierda_desde_el_norte_debe_retornar_la_coordenada_00W()
-    {
-        //arrange
-        var ubicacion = new Ubicacion();
-        
-        //act
-        ubicacion.RealizarGiro(Giro.Izquierda);
-        
-        //assert
-        ubicacion.ObtenerCoordernada().Should().Be("0:0:W");
-    }
-
-    [Fact]
-    public void Si_giro_a_la_izquierda_desde_el_oeste_debe_retornar_la_coordenada_00S()
-    {
-        // Arrage
-        var ubicacion = new Ubicacion();
-        ubicacion.RealizarGiro(Giro.Izquierda);
-        
-        // Act
-        ubicacion.RealizarGiro(Giro.Izquierda);
-        
-        // Arrange
-        ubicacion.ObtenerCoordernada().Should().Be("0:0:S");
-    }
-
-    [Fact]
-    public void Si_giro_a_la_izquierda_desde_el_sur_debe_retornar_la_cordenada_00E()
-    {
-        // Arrage
-        var ubicacion = new Ubicacion();
-        ubicacion.RealizarGiro(Giro.Izquierda);
-        ubicacion.RealizarGiro(Giro.Izquierda);
-        // Act
-        ubicacion.RealizarGiro(Giro.Izquierda);
-        
-        // Arrange
-        ubicacion.ObtenerCoordernada().Should().Be("0:0:E");
-    }
-
-    [Fact]
-    public void Si_giro_a_la_izquierda_desde_el_este_debe_retornar_la_coordenada_00N()
-    {
-        // Arrage
-        var ubicacion = new Ubicacion();
-        ubicacion.RealizarGiro(Giro.Izquierda);
-        ubicacion.RealizarGiro(Giro.Izquierda);
-        ubicacion.RealizarGiro(Giro.Izquierda);
-        // Act
-        ubicacion.RealizarGiro(Giro.Izquierda);
-        
-        // Arrange
-        ubicacion.ObtenerCoordernada().Should().Be("0:0:N");
+        utilidadesUbicacion.ObtenerUbicacion().Should().Be(orientacionEsperada);
     }
 
     [Theory]
@@ -107,28 +51,36 @@ public class MarsRoverTest
         utilidadesUbicacion.RealizarGirosIzquierda(cantidadGiros);
 
         //assert
-        utilidadesUbicacion.Ubicacion.ObtenerCoordernada().Should().Be(orientacionEsperada);
+        utilidadesUbicacion.ObtenerUbicacion().Should().Be(orientacionEsperada);
     }
     
 }
 
 public class Utilidades
 {
+    private readonly Ubicacion Ubicacion = new();
 
-    public readonly Ubicacion Ubicacion = new();
     public void RealizarGirosDerecha(int numeroGiros)
     {
-        for (var iteracion = 0; iteracion < numeroGiros; iteracion++)
-        {
-            Ubicacion.RealizarGiro(Giro.Derecha);
-        }
+        RealizarGiro(numeroGiros, Giro.Derecha);
+
     }
-    
+
     public void RealizarGirosIzquierda(int numeroGiros)
+    {
+        RealizarGiro(numeroGiros, Giro.Izquierda);
+    }
+
+    private void RealizarGiro(int numeroGiros, Giro giro)
     {
         for (var iteracion = 0; iteracion < numeroGiros; iteracion++)
         {
-            Ubicacion.RealizarGiro(Giro.Izquierda);
+            Ubicacion.RealizarGiro(giro);
         }
+    }
+
+    public string ObtenerUbicacion()
+    {
+        return Ubicacion.ObtenerCoordernada();
     }
 }
