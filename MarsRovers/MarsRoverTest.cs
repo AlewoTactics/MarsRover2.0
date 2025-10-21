@@ -97,6 +97,7 @@ public class Ubicacion
                 'N' => 'E',
                 'E' => 'S',
                 'S' => 'W',
+                'W' => 'N',
                 _ => Orientacion
             };
         }
