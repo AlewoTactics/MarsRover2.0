@@ -30,6 +30,8 @@ public class MarsRoverTest
         var posicionInicial = ObtenerCoordenadaInicial();
         if (comando == "R")
             return posicionInicial.Replace("N", "E");
+        if(comando == "L")
+            return posicionInicial.Replace("N", "W");
         return posicionInicial;
     }
 
