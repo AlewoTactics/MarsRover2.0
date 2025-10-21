@@ -91,6 +91,24 @@ public class MarsRoverTest
         // Arrange
         ubicacion.ObtenerCoordernada().Should().Be("0:0:N");
     }
+
+    [Theory]
+    [InlineData(1, "0:0:W")]
+    [InlineData(2, "0:0:S")]
+    [InlineData(3, "0:0:E")]
+    [InlineData(4, "0:0:N")]
+    [InlineData(5, "0:0:W")]
+    [InlineData(10, "0:0:S")]
+    public void Si_giro_N_veces_a_la_izquierda_debe_retornar_la_coordenada_correspondiente(int cantidadGiros, string orientacionEsperada)
+    {
+        //Arrange
+        var utilidadesUbicacion = new Utilidades();
+        //act
+        utilidadesUbicacion.RealizarGiros(cantidadGiros);
+
+        //assert
+        utilidadesUbicacion.Ubicacion.ObtenerCoordernada().Should().Be(orientacionEsperada);
+    }
     
 }
 
