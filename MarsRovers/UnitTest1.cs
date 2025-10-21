@@ -13,6 +13,6 @@ public class UnitTest1
 
     private object ObtenerCoordenadaInicial(string empty)
     {
-        throw new NotImplementedException();
+        return "0:0:N";
     }
 }
