@@ -76,6 +76,21 @@ public class MarsRoverTest
         // Arrange
         ubicacion.ObtenerCoordernada().Should().Be("0:0:E");
     }
+
+    [Fact]
+    public void Si_giro_a_la_izquierda_desde_el_este_debe_retornar_la_coordenada_00N()
+    {
+        // Arrage
+        var ubicacion = new Ubicacion();
+        ubicacion.RealizarGiro(Giro.Izquierda);
+        ubicacion.RealizarGiro(Giro.Izquierda);
+        ubicacion.RealizarGiro(Giro.Izquierda);
+        // Act
+        ubicacion.RealizarGiro(Giro.Izquierda);
+        
+        // Arrange
+        ubicacion.ObtenerCoordernada().Should().Be("0:0:N");
+    }
     
 }
 
