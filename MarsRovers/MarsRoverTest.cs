@@ -28,11 +28,12 @@ public class MarsRoverTest
     private string Girar(string comando)
     {
         var posicionInicial = ObtenerCoordenadaInicial();
-        if (comando == "R")
-            return posicionInicial.Replace("N", "E");
-        if(comando == "L")
-            return posicionInicial.Replace("N", "W");
-        return posicionInicial;
+        return comando switch
+        {
+            "R" => posicionInicial.Replace("N", "E"),
+            "L" => posicionInicial.Replace("N", "W"),
+            _ => posicionInicial
+        };
     }
 
     private string ObtenerCoordenadaInicial()
