@@ -44,7 +44,8 @@ public class MarsRoverTest
         
         //act
         ubicacion.RealizarGiro('L');
-        //asert
+        
+        //assert
         ubicacion.ObtenerCoordernada().Should().Be("0:0:W");
     }
     

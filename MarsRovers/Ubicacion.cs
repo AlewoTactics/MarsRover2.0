@@ -28,5 +28,10 @@ public class Ubicacion
                 _ => Orientacion
             };
         }
+        else if (comando == 'L') 
+        {
+            if (Orientacion == 'N')
+                Orientacion = 'W';
+        }
     }
 }
