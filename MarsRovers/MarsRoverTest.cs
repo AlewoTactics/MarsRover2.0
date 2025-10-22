@@ -13,7 +13,7 @@ public class MarsRoverTest
     }
 
     [Fact]
-    public void Si_ElComandoEsR_Debe_Retornar00E()
+    public void Si_OrientacionEsNorteYGiroAlaDerecha_Debe_OrientarseAlEsteEnCoordenada00E()
     {
         var marsRover = new MarsRover();
         string ubicacion = marsRover.EjecutarComando("R");
@@ -21,10 +21,14 @@ public class MarsRoverTest
     }
 
     [Fact]
-    public void Si_El_Comando_Es_RR_Debe_Retonar_00S()
+    public void Si_OrientacionEsEsteYGiroAlaDerecha_Debe_OrientarseAlEsteEnCoordenada00S()
     {
-        var marsRover = new MarsRover();
-        string ubicacion = marsRover.EjecutarComando("RR");
+        //ARRANGE
+        var marsRover = new MarsRover(); 
+        marsRover.EjecutarComando("R");
+        //ACT
+        string ubicacion = marsRover.EjecutarComando("R");
+        //ASSERT
         ubicacion.Should().Be("0:0:S");
     }
 }
