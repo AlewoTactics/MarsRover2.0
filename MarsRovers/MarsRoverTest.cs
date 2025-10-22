@@ -17,7 +17,6 @@ public class MarsRover
 {
     public string EjecutarComando(string empty)
     {
-        
-        throw new NotImplementedException();
+        return "0:0:N";
     }
 }
