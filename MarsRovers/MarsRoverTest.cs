@@ -60,4 +60,17 @@ public class MarsRoverTest
         //ASSERT
         ubicacion.Should().Be("0:0:N");
     }
+
+    [Fact]
+    public void Si_OrientacionEsNorteYGiroAlaIzquierda_Debe_OrientarseAlEsteEnCoordenada00W()
+    {
+        //ARRANGE
+        var marsRover = new MarsRover(); 
+        
+        //ACT
+        string ubicacion = marsRover.EjecutarComando("L");
+        
+        //ASSERT
+        ubicacion.Should().Be("0:0:W");
+    }
 }
