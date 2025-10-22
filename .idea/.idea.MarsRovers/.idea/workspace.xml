@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="df522766-fe64-4992-a8d8-fa8d24149c16" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/MarsRovers/MarsRoverTest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MarsRovers/MarsRoverTest.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MarsRovers/MarsRover.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MarsRovers/MarsRover.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,31 +64,7 @@
       <option name="presentableId" value="Default" />
       <updated>1761064915068</updated>
       <workItem from="1761064916319" duration="19147000" />
-      <workItem from="1761143732575" duration="14915000" />
-    </task>
-    <task id="LOCAL-00022" summary="🟦 se mejora la legibilidad">
-      <option name="closed" value="true" />
-      <created>1761079467508</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1761079467508</updated>
-    </task>
-    <task id="LOCAL-00023" summary="🟥 Si_estoy_en_el_oeste_y_giro_derecha_debe_estar_en_la_coordenada_00N">
-      <option name="closed" value="true" />
-      <created>1761079583288</created>
-      <option name="number" value="00023" />
-      <option name="presentableId" value="LOCAL-00023" />
-      <option name="project" value="LOCAL" />
-      <updated>1761079583288</updated>
-    </task>
-    <task id="LOCAL-00024" summary="🟩 Se agrega giro a la derecha de oeste a norte">
-      <option name="closed" value="true" />
-      <created>1761079661899</created>
-      <option name="number" value="00024" />
-      <option name="presentableId" value="LOCAL-00024" />
-      <option name="project" value="LOCAL" />
-      <updated>1761079661899</updated>
+      <workItem from="1761143732575" duration="17521000" />
     </task>
     <task id="LOCAL-00025" summary="🟦 Utilidad de giros ilimitados">
       <option name="closed" value="true" />
@@ -458,7 +434,31 @@
       <option name="project" value="LOCAL" />
       <updated>1761165134475</updated>
     </task>
-    <option name="localTasksCounter" value="71" />
+    <task id="LOCAL-00071" summary="🔴SI_LaPosicionEs01WYAvanzo_Debe_Retornar00W">
+      <option name="closed" value="true" />
+      <created>1761165335007</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1761165335007</updated>
+    </task>
+    <task id="LOCAL-00072" summary="🔴 SI_LaPosicionEs01WYAvanzo_Debe_Retornar00W">
+      <option name="closed" value="true" />
+      <created>1761165446465</created>
+      <option name="number" value="00072" />
+      <option name="presentableId" value="LOCAL-00072" />
+      <option name="project" value="LOCAL" />
+      <updated>1761165446465</updated>
+    </task>
+    <task id="LOCAL-00073" summary="✅SI_LaPosicionEs01WYAvanzo_Debe_Retornar00W">
+      <option name="closed" value="true" />
+      <created>1761165529315</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1761165529315</updated>
+    </task>
+    <option name="localTasksCounter" value="74" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -468,9 +468,6 @@
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value=" se cambia ifs anidados por switch para sean mas legibles" />
-    <MESSAGE value=" Si_OrientacionEsOesteYGiroALaDerecha_Debe_OrientarseAlNorteEnCordenada00N" />
-    <MESSAGE value=" Si_OrientacionEsOesteYGiroALaDerecha_Debe_OrientarseAlNorteEnCordenada00N" />
     <MESSAGE value=" Se crea metodo girar derecha" />
     <MESSAGE value=" Si_OrientacionEsNorteYGiroAlaIzquierda_Debe_OrientarseAlEsteEnCoordenada00W" />
     <MESSAGE value=" Si_OrientacionEsNorteYGiroAlaIzquierda_Debe_OrientarseAlEsteEnCoordenada00W" />
@@ -493,7 +490,10 @@
     <MESSAGE value=" SiLaPosicionEa01SYAvanzo_Debe_Retornar00S" />
     <MESSAGE value="✅ SiLaPosicionEa01SYAvanzo_Debe_Retornar00S" />
     <MESSAGE value=" Refactor para movimiento en eje x" />
-    <option name="LAST_COMMIT_MESSAGE" value=" Refactor para movimiento en eje x" />
+    <MESSAGE value="SI_LaPosicionEs01WYAvanzo_Debe_Retornar00W" />
+    <MESSAGE value=" SI_LaPosicionEs01WYAvanzo_Debe_Retornar00W" />
+    <MESSAGE value="✅SI_LaPosicionEs01WYAvanzo_Debe_Retornar00W" />
+    <option name="LAST_COMMIT_MESSAGE" value="✅SI_LaPosicionEs01WYAvanzo_Debe_Retornar00W" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -1,4 +1,6 @@
-﻿namespace MarsRovers;
+﻿using Xunit.Sdk;
+
+namespace MarsRovers;
 
 public class MarsRover
 {
@@ -8,38 +10,28 @@ public class MarsRover
 
     public string EjecutarComando(string comando)
     {
-        if (comando == "M")
-        {
-            if (_orientacion == PuntoCardinal.Norte)
+            switch(comando)
             {
-                _posicionY++;
-            }
-            else if (_orientacion == PuntoCardinal.Sur)
-            {
-                _posicionY--;
-            }
-            else if (_orientacion == PuntoCardinal.Oeste)
-            {
-                _posicionX--;
-            }
-            else 
-            {
-                _posicionX++;
-            }
-        }
-
-        _orientacion = Rotar(comando);
+                case "M" :
+                    (_posicionX, _posicionY) = CalcularPosicion(_orientacion, _posicionX, _posicionY);
+                    break;
+                case "R" :  _orientacion = GirarDerecha(); break;
+                case "L" : _orientacion = GirarIzquierda(); break;
+            };
 
         return $"{_posicionX}:{_posicionY}:{(char)_orientacion}";
     }
 
-    private PuntoCardinal Rotar(string comando)
+
+    private static (int posicionFinalX, int posicionFinalY) CalcularPosicion(PuntoCardinal orientacionInicial,
+        int posicionInicialX, int posicionInicialY)
     {
-        return comando switch
+        return orientacionInicial switch
         {
-            "R" => GirarDerecha(),
-            "L" => GirarIzquierda(),
-            _ => _orientacion
+            PuntoCardinal.Norte => (posicionInicialX, posicionInicialY + 1),
+            PuntoCardinal.Sur => (posicionInicialX, posicionInicialY - 1),
+            PuntoCardinal.Oeste => (posicionInicialX - 1, posicionInicialY),
+            _ => (posicionInicialX + 1, posicionInicialY)
         };
     }
 
