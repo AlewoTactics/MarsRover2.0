@@ -15,19 +15,19 @@ public class MarsRover
 
     private string Rotar(string comando)
     {
-        if (comando == "R")
+        return comando switch
         {
-            return GirarDerecha();
-        }
+            "R" => GirarDerecha(),
+            "L" => GirarIzquierda(),
+            _ => _orientacion
+        };
+    }
 
-        if (comando == "L")
-        {
-            if (_orientacion == "N")
-                return "W";
-            return "S";
-        }
-
-        return _orientacion;
+    private string GirarIzquierda()
+    {
+        if (_orientacion == "N")
+            return "W";
+        return "S";
     }
 
     private string GirarDerecha()
