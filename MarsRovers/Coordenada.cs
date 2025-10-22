@@ -28,6 +28,8 @@ public class Coordenada(int x, int y)
 
     public Coordenada IrAlEste()
     {
+        if (x == 9)
+            return new Coordenada(0, y);
         return new Coordenada(x + 1, y);
     }
 }

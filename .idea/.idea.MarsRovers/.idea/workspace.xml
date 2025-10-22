@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="df522766-fe64-4992-a8d8-fa8d24149c16" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/MarsRovers/MarsRoverTest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MarsRovers/MarsRoverTest.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MarsRovers/Coordenada.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MarsRovers/Coordenada.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,15 +64,7 @@
       <option name="presentableId" value="Default" />
       <updated>1761064915068</updated>
       <workItem from="1761064916319" duration="19147000" />
-      <workItem from="1761143732575" duration="21885000" />
-    </task>
-    <task id="LOCAL-00034" summary="🟩 Se agrega giro a la izquierda desde el este al norte">
-      <option name="closed" value="true" />
-      <created>1761084606547</created>
-      <option name="number" value="00034" />
-      <option name="presentableId" value="LOCAL-00034" />
-      <option name="project" value="LOCAL" />
-      <updated>1761084606547</updated>
+      <workItem from="1761143732575" duration="22241000" />
     </task>
     <task id="LOCAL-00035" summary="🟥 Si_ElComandoEsVacio_Debe_Retornar00N">
       <option name="closed" value="true" />
@@ -458,7 +450,15 @@
       <option name="project" value="LOCAL" />
       <updated>1761172187036</updated>
     </task>
-    <option name="localTasksCounter" value="83" />
+    <task id="LOCAL-00083" summary="🔴Si_SuperaElLimiteEnXHaciaEste_Debe_RetornarLaCoordenada00E">
+      <option name="closed" value="true" />
+      <created>1761172519447</created>
+      <option name="number" value="00083" />
+      <option name="presentableId" value="LOCAL-00083" />
+      <option name="project" value="LOCAL" />
+      <updated>1761172519447</updated>
+    </task>
+    <option name="localTasksCounter" value="84" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -468,7 +468,6 @@
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value="Si_OrientacionEsSurYGiroIzquierda_Debe_OrientarseAlEsteEnCoordenada00E" />
     <MESSAGE value="Si_OrientacionEsEsteYGiroAlaIzquierda_Debe_OrientarseAlNoreEnCoordenada00N" />
     <MESSAGE value="✅ Si_OrientacionEsEsteYGiroAlaIzquierda_Debe_OrientarseAlNoreEnCoordenada00N" />
     <MESSAGE value=" Se crea enumerable con puntos cardinales" />
@@ -493,7 +492,8 @@
     <MESSAGE value=" Si_SuperaElLimiteEnYHaciaElSur_Debe_RetornarLaCordenanda09S" />
     <MESSAGE value="✅ Si_SuperaElLimiteEnYHaciaElSur_Debe_RetornarLaCordenanda09S" />
     <MESSAGE value=" Se agregan constantes para identificar los  limites Norte y Sur" />
-    <option name="LAST_COMMIT_MESSAGE" value=" Se agregan constantes para identificar los  limites Norte y Sur" />
+    <MESSAGE value="Si_SuperaElLimiteEnXHaciaEste_Debe_RetornarLaCoordenada00E" />
+    <option name="LAST_COMMIT_MESSAGE" value="Si_SuperaElLimiteEnXHaciaEste_Debe_RetornarLaCoordenada00E" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
