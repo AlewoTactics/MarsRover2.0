@@ -178,4 +178,17 @@ public class MarsRoverTest
         //assert
         ubicacion.Should().Be("2:3:N");
     }
+
+    [Fact]
+    public void Si_SuperoElLimiteEnYHaciaElNorte_Debe_RetornarLaCoordenada00N()
+    {
+        // Arrange 
+        var marsRover = new MarsRover();
+        
+        // Act
+        var ubicacion = marsRover.EjecutarComando("MMMMMMMMMM");
+        
+        // Assert
+        ubicacion.Should().Be("0:0:N");
+    }
 }
