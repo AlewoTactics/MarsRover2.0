@@ -166,6 +166,16 @@ public class MarsRoverTest
         //Assert
         ubicacion.Should().Be("0:0:W");
     }
-    
-    
+
+    [Fact]
+    public void Si_ReciboElComandoMMRMMLM_Debe_RetornarLaCoordenada23N()
+    {
+        //Arrange
+        var marsRover = new MarsRover();
+        //act
+        var ubicacion = marsRover.EjecutarComando("MMRMMLM");
+        
+        //assert
+        ubicacion.Should().Be("2:3:N");
+    }
 }
