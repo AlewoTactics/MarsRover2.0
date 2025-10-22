@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="df522766-fe64-4992-a8d8-fa8d24149c16" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/MarsRovers/Coordenada.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MarsRovers/Coordenada.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MarsRovers/MarsRoverTest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MarsRovers/MarsRoverTest.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,23 +64,7 @@
       <option name="presentableId" value="Default" />
       <updated>1761064915068</updated>
       <workItem from="1761064916319" duration="19147000" />
-      <workItem from="1761143732575" duration="21412000" />
-    </task>
-    <task id="LOCAL-00032" summary="🟩 cardinalidad sur a este">
-      <option name="closed" value="true" />
-      <created>1761083922657</created>
-      <option name="number" value="00032" />
-      <option name="presentableId" value="LOCAL-00032" />
-      <option name="project" value="LOCAL" />
-      <updated>1761083922657</updated>
-    </task>
-    <task id="LOCAL-00033" summary="🟥 Giro a izquierda desde el este">
-      <option name="closed" value="true" />
-      <created>1761084085683</created>
-      <option name="number" value="00033" />
-      <option name="presentableId" value="LOCAL-00033" />
-      <option name="project" value="LOCAL" />
-      <updated>1761084085683</updated>
+      <workItem from="1761143732575" duration="21885000" />
     </task>
     <task id="LOCAL-00034" summary="🟩 Se agrega giro a la izquierda desde el este al norte">
       <option name="closed" value="true" />
@@ -458,7 +442,23 @@
       <option name="project" value="LOCAL" />
       <updated>1761171722456</updated>
     </task>
-    <option name="localTasksCounter" value="81" />
+    <task id="LOCAL-00081" summary="✅ Si_SuperaElLimiteEnYHaciaElSur_Debe_RetornarLaCordenanda09S">
+      <option name="closed" value="true" />
+      <created>1761171844474</created>
+      <option name="number" value="00081" />
+      <option name="presentableId" value="LOCAL-00081" />
+      <option name="project" value="LOCAL" />
+      <updated>1761171844474</updated>
+    </task>
+    <task id="LOCAL-00082" summary="🔷 Se agregan constantes para identificar los  limites Norte y Sur">
+      <option name="closed" value="true" />
+      <created>1761172187036</created>
+      <option name="number" value="00082" />
+      <option name="presentableId" value="LOCAL-00082" />
+      <option name="project" value="LOCAL" />
+      <updated>1761172187036</updated>
+    </task>
+    <option name="localTasksCounter" value="83" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -468,8 +468,6 @@
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value="Si_OrientacionEsSurYGiroIzquierda_Debe_OrientarseAlEsteEnCoordenada00E" />
-    <MESSAGE value="✅Si_OrientacionEsOesteYGiroALaIzquierda_Debe_OrientarseAlSurEnCoordenada00S" />
     <MESSAGE value="Si_OrientacionEsSurYGiroIzquierda_Debe_OrientarseAlEsteEnCoordenada00E" />
     <MESSAGE value="Si_OrientacionEsEsteYGiroAlaIzquierda_Debe_OrientarseAlNoreEnCoordenada00N" />
     <MESSAGE value="✅ Si_OrientacionEsEsteYGiroAlaIzquierda_Debe_OrientarseAlNoreEnCoordenada00N" />
@@ -493,7 +491,9 @@
     <MESSAGE value=" Si_SuperoElLimiteEnYHaciaElNorte_Debe_RetornarLaCoordenada00N" />
     <MESSAGE value="✅ Si_SuperoElLimiteEnYHaciaElNorte_Debe_RetornarLaCoordenada00N" />
     <MESSAGE value=" Si_SuperaElLimiteEnYHaciaElSur_Debe_RetornarLaCordenanda09S" />
-    <option name="LAST_COMMIT_MESSAGE" value=" Si_SuperaElLimiteEnYHaciaElSur_Debe_RetornarLaCordenanda09S" />
+    <MESSAGE value="✅ Si_SuperaElLimiteEnYHaciaElSur_Debe_RetornarLaCordenanda09S" />
+    <MESSAGE value=" Se agregan constantes para identificar los  limites Norte y Sur" />
+    <option name="LAST_COMMIT_MESSAGE" value=" Se agregan constantes para identificar los  limites Norte y Sur" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -151,7 +151,7 @@ public class MarsRoverTest
     }
 
     [Fact]
-    public void SI_LaPosicionEs01WYAvanzo_Debe_Retornar00W ()
+    public void SI_LaPosicionEs01WYAvanzo_Debe_Retornar00W()
     {
         // Arrange
         var marsRover = new MarsRover();
@@ -174,7 +174,7 @@ public class MarsRoverTest
         var marsRover = new MarsRover();
         //act
         var ubicacion = marsRover.EjecutarComando("MMRMMLM");
-        
+
         //assert
         ubicacion.Should().Be("2:3:N");
     }
@@ -184,10 +184,10 @@ public class MarsRoverTest
     {
         // Arrange 
         var marsRover = new MarsRover();
-        
+
         // Act
         var ubicacion = marsRover.EjecutarComando("MMMMMMMMMM");
-        
+
         // Assert
         ubicacion.Should().Be("0:0:N");
     }
@@ -197,11 +197,24 @@ public class MarsRoverTest
     {
         // Arrange 
         var marsRover = new MarsRover();
-        
+
         // Act
-        
+
         var ubicacion = marsRover.EjecutarComando("LLM");
         // Assert
         ubicacion.Should().Be("0:9:S");
+    }
+
+    [Fact]
+    public void Si_SuperaElLimiteEnXHaciaEste_Debe_RetornarLaCoordenada00E()
+    {
+        // Arrange 
+        var marsRover = new MarsRover();
+
+        //Act
+        var ubicacion = marsRover.EjecutarComando("RMMMMMMMMMM");
+
+        // Assert
+        ubicacion.Should().Be("0:0:E");
     }
 }
