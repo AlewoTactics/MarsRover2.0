@@ -42,8 +42,19 @@ public class MarsRover
     public string EjecutarComando(string comando)
     {
         if (comando == "R")
-            _orientacion = "E";
+        {
+            if (_orientacion == "N")
+            {
+                _orientacion = "E";
+            }
+            else 
+            {
+               _orientacion = "S";
+            }
+        }
 
+
+        
         return $"{_posicionX}:{_posicionY}:{_orientacion}";
     }
 }

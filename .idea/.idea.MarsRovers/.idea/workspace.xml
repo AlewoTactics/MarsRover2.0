@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="df522766-fe64-4992-a8d8-fa8d24149c16" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.MarsRovers/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MarsRovers/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MarsRovers/MarsRoverTest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MarsRovers/MarsRoverTest.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -55,7 +54,7 @@
       <option name="presentableId" value="Default" />
       <updated>1761064915068</updated>
       <workItem from="1761064916319" duration="19147000" />
-      <workItem from="1761143732575" duration="4113000" />
+      <workItem from="1761143732575" duration="5605000" />
     </task>
     <task id="LOCAL-00001" summary="Commit inicial">
       <option name="closed" value="true" />
@@ -353,7 +352,47 @@
       <option name="project" value="LOCAL" />
       <updated>1761147093559</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="🟥 Si_ElComandoEsR_Debe_Retornar00E">
+      <option name="closed" value="true" />
+      <created>1761150585243</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1761150585243</updated>
+    </task>
+    <task id="LOCAL-00039" summary="🟩 Si_ElComandoEsR_Debe_Retornar00E">
+      <option name="closed" value="true" />
+      <created>1761150802759</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1761150802759</updated>
+    </task>
+    <task id="LOCAL-00040" summary="🟦 Se define las propiedades de ubicacion y posicion para obtener su ubicacion">
+      <option name="closed" value="true" />
+      <created>1761151384631</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1761151384631</updated>
+    </task>
+    <task id="LOCAL-00041" summary="🟥 Si_El_Comando_Es_RR_Debe_Retonar_00S">
+      <option name="closed" value="true" />
+      <created>1761151501018</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1761151501018</updated>
+    </task>
+    <task id="LOCAL-00042" summary="🟥 Si_OrientacionEsEsteYGiroAlaDerecha_Debe_OrientarseAlEsteEnCoordenada00S">
+      <option name="closed" value="true" />
+      <created>1761151888437</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1761151888437</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -363,11 +402,6 @@
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value=" se establece ubicacion inicial" />
-    <MESSAGE value=" Se establece constante para la coordenada inicial" />
-    <MESSAGE value=" realizar un giro a la derecha" />
-    <MESSAGE value=" Se implementa giro a la derecha a partir de la posicion inicial" />
-    <MESSAGE value=" Se crea construtor que inicializa la orientacion inicial, y se ajusta el metodo que obtiene la cordenada actual" />
     <MESSAGE value=" Si_estoy_en_el_Este_al_girar_a_la_derecha_debe_estar_en_la_coordenada_00S" />
     <MESSAGE value=" Se agrega caso para que cuando orientación sea E y haya un giro a la derecha  la orientación sea S" />
     <MESSAGE value=" Si_estoy_en_el_Sur_al_girar_a_la_derecha_debe_estar_en_la_coordenada_00W" />
@@ -388,7 +422,12 @@
     <MESSAGE value=" Si_ElComandoEsVacio_Debe_Retornar00N" />
     <MESSAGE value=" Si_ElComandoEsVacio_Debe_Retornar00N" />
     <MESSAGE value=" Si_ElComandoEsVacio_Debe_Retornar00N" />
-    <option name="LAST_COMMIT_MESSAGE" value=" Si_ElComandoEsVacio_Debe_Retornar00N" />
+    <MESSAGE value=" Si_ElComandoEsR_Debe_Retornar00E" />
+    <MESSAGE value=" Si_ElComandoEsR_Debe_Retornar00E" />
+    <MESSAGE value=" Se define las propiedades de ubicacion y posicion para obtener su ubicacion" />
+    <MESSAGE value=" Si_El_Comando_Es_RR_Debe_Retonar_00S" />
+    <MESSAGE value=" Si_OrientacionEsEsteYGiroAlaDerecha_Debe_OrientarseAlEsteEnCoordenada00S" />
+    <option name="LAST_COMMIT_MESSAGE" value=" Si_OrientacionEsEsteYGiroAlaDerecha_Debe_OrientarseAlEsteEnCoordenada00S" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
