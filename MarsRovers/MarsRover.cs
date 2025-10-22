@@ -9,8 +9,20 @@ public class MarsRover
     public string EjecutarComando(string comando)
     {
         if (comando == "M")
-            _posicionY++;
-        
+        {
+            if (_orientacion == PuntoCardinal.Norte)
+            {
+                _posicionY++;
+            }
+            else
+            {
+                if (_orientacion == PuntoCardinal.Este)
+                {
+                    _posicionX = "1";
+                }
+            }
+        }
+
         _orientacion = Rotar(comando);
 
         return $"{_posicionX}:{_posicionY}:{(char)_orientacion}";
@@ -32,8 +44,8 @@ public class MarsRover
         {
             PuntoCardinal.Norte => PuntoCardinal.Oeste,
             PuntoCardinal.Oeste => PuntoCardinal.Sur,
-            PuntoCardinal.Sur =>   PuntoCardinal.Este,
-            PuntoCardinal.Este =>  PuntoCardinal.Norte,
+            PuntoCardinal.Sur => PuntoCardinal.Este,
+            PuntoCardinal.Este => PuntoCardinal.Norte,
             _ => _orientacion
         };
     }
@@ -43,8 +55,8 @@ public class MarsRover
         return _orientacion switch
         {
             PuntoCardinal.Norte => PuntoCardinal.Este,
-            PuntoCardinal.Este =>  PuntoCardinal.Sur,
-            PuntoCardinal.Sur =>   PuntoCardinal.Oeste,
+            PuntoCardinal.Este => PuntoCardinal.Sur,
+            PuntoCardinal.Sur => PuntoCardinal.Oeste,
             PuntoCardinal.Oeste => PuntoCardinal.Norte,
             _ => _orientacion
         };
