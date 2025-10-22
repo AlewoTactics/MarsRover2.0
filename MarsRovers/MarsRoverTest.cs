@@ -158,6 +158,7 @@ public class MarsRoverTest
         marsRover.EjecutarComando("R");
         marsRover.EjecutarComando("M");
         marsRover.EjecutarComando("L");
+        marsRover.EjecutarComando("L");
 
         //Act
         string ubicacion = marsRover.EjecutarComando("M");
