@@ -3,13 +3,13 @@
 public class MarsRover
 {
     private string _posicionX = "0";
-    private string _posicionY = "0";
+    private int _posicionY = 0;
     private PuntoCardinal _orientacion = PuntoCardinal.Norte;
 
     public string EjecutarComando(string comando)
     {
         if (comando == "M")
-            _posicionY = "1";
+            _posicionY++;
         
         _orientacion = Rotar(comando);
 
