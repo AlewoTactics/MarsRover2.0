@@ -19,6 +19,14 @@ public class MarsRoverTest
         string ubicacion = marsRover.EjecutarComando("R");
         ubicacion.Should().Be("0:0:E");
     }
+
+    [Fact]
+    public void Si_El_Comando_Es_RR_Debe_Retonar_00S()
+    {
+        var marsRover = new MarsRover();
+        string ubicacion = marsRover.EjecutarComando("RR");
+        ubicacion.Should().Be("0:0:S");
+    }
 }
 
 public class MarsRover
