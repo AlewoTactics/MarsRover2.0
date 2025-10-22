@@ -7,6 +7,9 @@ public class Coordenada(int x, int y)
 
     public Coordenada IrAlNorte()
     {
+        if (y == 9)
+            return new Coordenada(x, 0);
+        
         return new Coordenada(x, y + 1);
     }
 
