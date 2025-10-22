@@ -26,6 +26,9 @@ public class Coordenada(int x, int y)
 
     public Coordenada IrAlOeste()
     {
+        if (x == LimiteOeste)
+            return new Coordenada(LimiteEste, y);
+        
         return new Coordenada(x - MagnitudDesplazamiento, y);
     }
 
