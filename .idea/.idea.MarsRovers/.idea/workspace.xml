@@ -61,31 +61,7 @@
       <option name="presentableId" value="Default" />
       <updated>1761064915068</updated>
       <workItem from="1761064916319" duration="19147000" />
-      <workItem from="1761143732575" duration="9351000" />
-    </task>
-    <task id="LOCAL-00007" summary="🟥 Girar a la izquierda">
-      <option name="closed" value="true" />
-      <created>1761067748614</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1761067748614</updated>
-    </task>
-    <task id="LOCAL-00008" summary="🟩 Fake giro a la izquierda">
-      <option name="closed" value="true" />
-      <created>1761067851740</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1761067851740</updated>
-    </task>
-    <task id="LOCAL-00009" summary="🟦 Se implementa swicth por ser mas practico">
-      <option name="closed" value="true" />
-      <created>1761068014406</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1761068014406</updated>
+      <workItem from="1761143732575" duration="9664000" />
     </task>
     <task id="LOCAL-00010" summary="🟥 dar dos giros a la izquierda">
       <option name="closed" value="true" />
@@ -455,7 +431,31 @@
       <option name="project" value="LOCAL" />
       <updated>1761155687496</updated>
     </task>
-    <option name="localTasksCounter" value="56" />
+    <task id="LOCAL-00056" summary="🔴Si_OrientacionEsSurYGiroIzquierda_Debe_OrientarseAlEsteEnCoordenada00E">
+      <option name="closed" value="true" />
+      <created>1761155843416</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1761155843416</updated>
+    </task>
+    <task id="LOCAL-00057" summary="✅Si_OrientacionEsOesteYGiroALaIzquierda_Debe_OrientarseAlSurEnCoordenada00S">
+      <option name="closed" value="true" />
+      <created>1761155967607</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1761155967608</updated>
+    </task>
+    <task id="LOCAL-00058" summary="🔷Si_OrientacionEsSurYGiroIzquierda_Debe_OrientarseAlEsteEnCoordenada00E">
+      <option name="closed" value="true" />
+      <created>1761156017988</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1761156017988</updated>
+    </task>
+    <option name="localTasksCounter" value="59" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -465,9 +465,6 @@
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value=" girar a la izquierda desde el sur" />
-    <MESSAGE value=" cardinalidad sur a este" />
-    <MESSAGE value=" Giro a izquierda desde el este" />
     <MESSAGE value=" Se agrega giro a la izquierda desde el este al norte" />
     <MESSAGE value=" Si_ElComandoEsVacio_Debe_Retornar00N" />
     <MESSAGE value=" Si_ElComandoEsVacio_Debe_Retornar00N" />
@@ -490,7 +487,10 @@
     <MESSAGE value=" Si_OrientacionEsOesteYGiroALaIzquierda_Debe_OrientarseAlSurEnCoordenada00S" />
     <MESSAGE value=" Si_OrientacionEsOesteYGiroALaIzquierda_Debe_OrientarseAlSurEnCoordenada00S" />
     <MESSAGE value=" Se aagrega caso de rotacion izquierda del este al sur" />
-    <option name="LAST_COMMIT_MESSAGE" value=" Se aagrega caso de rotacion izquierda del este al sur" />
+    <MESSAGE value="Si_OrientacionEsSurYGiroIzquierda_Debe_OrientarseAlEsteEnCoordenada00E" />
+    <MESSAGE value="✅Si_OrientacionEsOesteYGiroALaIzquierda_Debe_OrientarseAlSurEnCoordenada00S" />
+    <MESSAGE value="Si_OrientacionEsSurYGiroIzquierda_Debe_OrientarseAlEsteEnCoordenada00E" />
+    <option name="LAST_COMMIT_MESSAGE" value="Si_OrientacionEsSurYGiroIzquierda_Debe_OrientarseAlEsteEnCoordenada00E" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
