@@ -27,6 +27,8 @@ public class MarsRover
 
     public string EjecutarComando(string empty)
     {
+        if (empty == "R")
+            return "0:0:E";
         return _ubicacionInicial;
     }
 }
