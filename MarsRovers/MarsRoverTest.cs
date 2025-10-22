@@ -15,8 +15,10 @@ public class MarsRoverTest
 
 public class MarsRover
 {
+    private string _ubicacionInicial = "0:0:N";
+
     public string EjecutarComando(string empty)
     {
-        return "0:0:N";
+        return _ubicacionInicial;
     }
 }
