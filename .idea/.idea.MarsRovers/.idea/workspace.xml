@@ -5,6 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="df522766-fe64-4992-a8d8-fa8d24149c16" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/MarsRovers/PuntoCardinal.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.MarsRovers/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MarsRovers/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MarsRovers/MarsRover.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MarsRovers/MarsRover.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -61,15 +63,7 @@
       <option name="presentableId" value="Default" />
       <updated>1761064915068</updated>
       <workItem from="1761064916319" duration="19147000" />
-      <workItem from="1761143732575" duration="10617000" />
-    </task>
-    <task id="LOCAL-00011" summary="🟩 Fake de girar a la izquierda dos veces">
-      <option name="closed" value="true" />
-      <created>1761068377261</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1761068377261</updated>
+      <workItem from="1761143732575" duration="11534000" />
     </task>
     <task id="LOCAL-00012" summary="🟥 Creacion del objeto ubicacion para obtener coordenas actuales">
       <option name="closed" value="true" />
@@ -455,7 +449,15 @@
       <option name="project" value="LOCAL" />
       <updated>1761156155193</updated>
     </task>
-    <option name="localTasksCounter" value="60" />
+    <task id="LOCAL-00060" summary="✅ Si_OrientacionEsEsteYGiroAlaIzquierda_Debe_OrientarseAlNoreEnCoordenada00N">
+      <option name="closed" value="true" />
+      <created>1761161029470</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1761161029470</updated>
+    </task>
+    <option name="localTasksCounter" value="61" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -465,7 +467,6 @@
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value=" Si_ElComandoEsVacio_Debe_Retornar00N" />
     <MESSAGE value=" Si_ElComandoEsVacio_Debe_Retornar00N" />
     <MESSAGE value=" Si_ElComandoEsVacio_Debe_Retornar00N" />
     <MESSAGE value=" Si_ElComandoEsR_Debe_Retornar00E" />
@@ -490,7 +491,8 @@
     <MESSAGE value="✅Si_OrientacionEsOesteYGiroALaIzquierda_Debe_OrientarseAlSurEnCoordenada00S" />
     <MESSAGE value="Si_OrientacionEsSurYGiroIzquierda_Debe_OrientarseAlEsteEnCoordenada00E" />
     <MESSAGE value="Si_OrientacionEsEsteYGiroAlaIzquierda_Debe_OrientarseAlNoreEnCoordenada00N" />
-    <option name="LAST_COMMIT_MESSAGE" value="Si_OrientacionEsEsteYGiroAlaIzquierda_Debe_OrientarseAlNoreEnCoordenada00N" />
+    <MESSAGE value="✅ Si_OrientacionEsEsteYGiroAlaIzquierda_Debe_OrientarseAlNoreEnCoordenada00N" />
+    <option name="LAST_COMMIT_MESSAGE" value="✅ Si_OrientacionEsEsteYGiroAlaIzquierda_Debe_OrientarseAlNoreEnCoordenada00N" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

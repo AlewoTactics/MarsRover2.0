@@ -4,16 +4,16 @@ public class MarsRover
 {
     private string _posicionX = "0";
     private string _posicionY = "0";
-    private string _orientacion = "N";
+    private PuntoCardinal _orientacion = PuntoCardinal.Norte;
 
     public string EjecutarComando(string comando)
     {
         _orientacion = Rotar(comando);
 
-        return $"{_posicionX}:{_posicionY}:{_orientacion}";
+        return $"{_posicionX}:{_posicionY}:{(char)_orientacion}";
     }
 
-    private string Rotar(string comando)
+    private PuntoCardinal Rotar(string comando)
     {
         return comando switch
         {
@@ -23,26 +23,26 @@ public class MarsRover
         };
     }
 
-    private string GirarIzquierda()
+    private PuntoCardinal GirarIzquierda()
     {
         return _orientacion switch
         {
-            "N" => "W",
-            "W" => "S",
-            "S" => "E",
-            "E" => "N",
+            PuntoCardinal.Norte => PuntoCardinal.Oeste,
+            PuntoCardinal.Oeste => PuntoCardinal.Sur,
+            PuntoCardinal.Sur =>   PuntoCardinal.Este,
+            PuntoCardinal.Este =>  PuntoCardinal.Norte,
             _ => _orientacion
         };
     }
 
-    private string GirarDerecha()
+    private PuntoCardinal GirarDerecha()
     {
         return _orientacion switch
         {
-            "N" => "E",
-            "E" => "S",
-            "S" => "W",
-            "W" => "N",
+            PuntoCardinal.Norte => PuntoCardinal.Este,
+            PuntoCardinal.Este =>  PuntoCardinal.Sur,
+            PuntoCardinal.Sur =>   PuntoCardinal.Oeste,
+            PuntoCardinal.Oeste => PuntoCardinal.Norte,
             _ => _orientacion
         };
     }
