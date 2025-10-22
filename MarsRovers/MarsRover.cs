@@ -14,11 +14,15 @@ public class MarsRover
             {
                 _posicionY++;
             }
+            else if (_orientacion == PuntoCardinal.Sur)
+            {
+                _posicionY--;
+            }
             else
             {
                 if (_orientacion == PuntoCardinal.Este)
                 {
-                    _posicionX ++;
+                    _posicionX++;
                 }
             }
         }
