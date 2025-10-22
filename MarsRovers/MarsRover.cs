@@ -27,7 +27,11 @@ public class MarsRover
     {
         if (_orientacion == "N")
             return "W";
-        return "S";
+        if (_orientacion == "W")
+            return "S";
+        if (_orientacion == "S")
+            return "E";
+        return _orientacion;
     }
 
     private string GirarDerecha()
