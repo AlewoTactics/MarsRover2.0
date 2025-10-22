@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="df522766-fe64-4992-a8d8-fa8d24149c16" name="Changes" comment="" />
+    <list default="true" id="df522766-fe64-4992-a8d8-fa8d24149c16" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/MarsRovers/MarsRoverTest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MarsRovers/MarsRoverTest.cs" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -59,23 +61,7 @@
       <option name="presentableId" value="Default" />
       <updated>1761064915068</updated>
       <workItem from="1761064916319" duration="19147000" />
-      <workItem from="1761143732575" duration="8756000" />
-    </task>
-    <task id="LOCAL-00005" summary="🟩 Si_enviamos_comando_R_debe_retornar_coordenada_OOE">
-      <option name="closed" value="true" />
-      <created>1761066830268</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1761066830268</updated>
-    </task>
-    <task id="LOCAL-00006" summary="🟦 Se reutiliza la función obtener coordenada inicial para calcular el primer giro a la derecha">
-      <option name="closed" value="true" />
-      <created>1761067552758</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1761067552758</updated>
+      <workItem from="1761143732575" duration="9351000" />
     </task>
     <task id="LOCAL-00007" summary="🟥 Girar a la izquierda">
       <option name="closed" value="true" />
@@ -453,7 +439,23 @@
       <option name="project" value="LOCAL" />
       <updated>1761155207648</updated>
     </task>
-    <option name="localTasksCounter" value="54" />
+    <task id="LOCAL-00054" summary="🟩 Si_OrientacionEsOesteYGiroALaIzquierda_Debe_OrientarseAlSurEnCoordenada00S">
+      <option name="closed" value="true" />
+      <created>1761155347755</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1761155347755</updated>
+    </task>
+    <task id="LOCAL-00055" summary="🔷 Se aagrega caso de rotacion izquierda del este al sur">
+      <option name="closed" value="true" />
+      <created>1761155687496</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1761155687496</updated>
+    </task>
+    <option name="localTasksCounter" value="56" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -463,8 +465,6 @@
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value=" Se agrega giro a la izquierda desde el oeste al sur" />
-    <MESSAGE value=" Se realiza tipado de los puntos cardinales y los giros y se ajustan test" />
     <MESSAGE value=" girar a la izquierda desde el sur" />
     <MESSAGE value=" cardinalidad sur a este" />
     <MESSAGE value=" Giro a izquierda desde el este" />
@@ -488,7 +488,9 @@
     <MESSAGE value=" Si_OrientacionEsNorteYGiroAlaIzquierda_Debe_OrientarseAlEsteEnCoordenada00W" />
     <MESSAGE value=" Se implementa metodo que asigna la orientacion" />
     <MESSAGE value=" Si_OrientacionEsOesteYGiroALaIzquierda_Debe_OrientarseAlSurEnCoordenada00S" />
-    <option name="LAST_COMMIT_MESSAGE" value=" Si_OrientacionEsOesteYGiroALaIzquierda_Debe_OrientarseAlSurEnCoordenada00S" />
+    <MESSAGE value=" Si_OrientacionEsOesteYGiroALaIzquierda_Debe_OrientarseAlSurEnCoordenada00S" />
+    <MESSAGE value=" Se aagrega caso de rotacion izquierda del este al sur" />
+    <option name="LAST_COMMIT_MESSAGE" value=" Se aagrega caso de rotacion izquierda del este al sur" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
