@@ -8,7 +8,7 @@ public class MarsRoverTest
     public void Si_ElComandoEsVacio_Debe_Retornar00N()
     {
         var marsRover = new MarsRover();
-        string  ubicacion = marsRover.EjecutarComando("");
+        string ubicacion = marsRover.EjecutarComando("");
         ubicacion.Should().Be("0:0:N");
     }
 
@@ -16,19 +16,22 @@ public class MarsRoverTest
     public void Si_ElComandoEsR_Debe_Retornar00E()
     {
         var marsRover = new MarsRover();
-        string  ubicacion = marsRover.EjecutarComando("R");
+        string ubicacion = marsRover.EjecutarComando("R");
         ubicacion.Should().Be("0:0:E");
     }
 }
 
 public class MarsRover
 {
-    private string _ubicacionInicial = "0:0:N";
+    private string _posicionX = "0";
+    private string _posicionY = "0";
+    private string _orientacion = "N";
 
-    public string EjecutarComando(string empty)
+    public string EjecutarComando(string comando)
     {
-        if (empty == "R")
-            return "0:0:E";
-        return _ubicacionInicial;
+        if (comando == "R")
+            _orientacion = "E";
+
+        return $"{_posicionX}:{_posicionY}:{_orientacion}";
     }
 }
