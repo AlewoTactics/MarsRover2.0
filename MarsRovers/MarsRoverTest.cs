@@ -76,6 +76,7 @@ public class MarsRover
             {
                 "N" => "E",
                 "E" => "S",
+                "W" => "N",
                 _ => "W"
             };
         }
