@@ -60,9 +60,13 @@ public class MarsRover
             {
                 _orientacion = "E";
             }
-            else 
+            else if( _orientacion == "E")
             {
                _orientacion = "S";
+            }
+            else
+            {
+                _orientacion = "W";
             }
         }
 
