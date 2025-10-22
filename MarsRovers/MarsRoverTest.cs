@@ -107,4 +107,17 @@ public class MarsRoverTest
         //ASSERT
         ubicacion.Should().Be("0:0:N");
     }
+
+    [Fact]
+    public void Si_OrientacionEsNorteYAvanzoUnaPosicion_Debe_MoverseALaCoordenada01N()
+    {
+        // Arrange
+        var marsRover = new MarsRover();
+        
+        // Act
+        string ubicacion = marsRover.EjecutarComando("M");
+        
+        // Assert
+        ubicacion.Should().Be("0:1:N");
+    }
 }
