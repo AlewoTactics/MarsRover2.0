@@ -64,23 +64,7 @@
       <option name="presentableId" value="Default" />
       <updated>1761064915068</updated>
       <workItem from="1761064916319" duration="19147000" />
-      <workItem from="1761143732575" duration="21084000" />
-    </task>
-    <task id="LOCAL-00030" summary="🟦 Se realiza tipado de los puntos cardinales y los giros y se ajustan test">
-      <option name="closed" value="true" />
-      <created>1761083566532</created>
-      <option name="number" value="00030" />
-      <option name="presentableId" value="LOCAL-00030" />
-      <option name="project" value="LOCAL" />
-      <updated>1761083566532</updated>
-    </task>
-    <task id="LOCAL-00031" summary="🟥 girar a la izquierda desde el sur">
-      <option name="closed" value="true" />
-      <created>1761083820869</created>
-      <option name="number" value="00031" />
-      <option name="presentableId" value="LOCAL-00031" />
-      <option name="project" value="LOCAL" />
-      <updated>1761083820869</updated>
+      <workItem from="1761143732575" duration="21412000" />
     </task>
     <task id="LOCAL-00032" summary="🟩 cardinalidad sur a este">
       <option name="closed" value="true" />
@@ -458,7 +442,23 @@
       <option name="project" value="LOCAL" />
       <updated>1761171160295</updated>
     </task>
-    <option name="localTasksCounter" value="79" />
+    <task id="LOCAL-00079" summary="✅ Si_SuperoElLimiteEnYHaciaElNorte_Debe_RetornarLaCoordenada00N">
+      <option name="closed" value="true" />
+      <created>1761171515309</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1761171515309</updated>
+    </task>
+    <task id="LOCAL-00080" summary="🔴 Si_SuperaElLimiteEnYHaciaElSur_Debe_RetornarLaCordenanda09S">
+      <option name="closed" value="true" />
+      <created>1761171722456</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL-00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1761171722456</updated>
+    </task>
+    <option name="localTasksCounter" value="81" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -468,8 +468,6 @@
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value=" Si_OrientacionEsOesteYGiroALaIzquierda_Debe_OrientarseAlSurEnCoordenada00S" />
-    <MESSAGE value=" Se aagrega caso de rotacion izquierda del este al sur" />
     <MESSAGE value="Si_OrientacionEsSurYGiroIzquierda_Debe_OrientarseAlEsteEnCoordenada00E" />
     <MESSAGE value="✅Si_OrientacionEsOesteYGiroALaIzquierda_Debe_OrientarseAlSurEnCoordenada00S" />
     <MESSAGE value="Si_OrientacionEsSurYGiroIzquierda_Debe_OrientarseAlEsteEnCoordenada00E" />
@@ -493,7 +491,9 @@
     <MESSAGE value="Si_ReciboElComandoMMRMMLM_Debe_RetornarLaCoordenada23N" />
     <MESSAGE value=" Se crea objeto coordenada para calcular los puntos x y internamente" />
     <MESSAGE value=" Si_SuperoElLimiteEnYHaciaElNorte_Debe_RetornarLaCoordenada00N" />
-    <option name="LAST_COMMIT_MESSAGE" value=" Si_SuperoElLimiteEnYHaciaElNorte_Debe_RetornarLaCoordenada00N" />
+    <MESSAGE value="✅ Si_SuperoElLimiteEnYHaciaElNorte_Debe_RetornarLaCoordenada00N" />
+    <MESSAGE value=" Si_SuperaElLimiteEnYHaciaElSur_Debe_RetornarLaCordenanda09S" />
+    <option name="LAST_COMMIT_MESSAGE" value=" Si_SuperaElLimiteEnYHaciaElSur_Debe_RetornarLaCordenanda09S" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
