@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="df522766-fe64-4992-a8d8-fa8d24149c16" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.MarsRovers/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MarsRovers/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MarsRovers/MarsRoverTest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MarsRovers/MarsRoverTest.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -21,6 +22,8 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="mock://C:/Users/julian.vargas/Desktop/TDD/MarsRover2.0/MarsRovers/MarsRover.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://C:/Users/julian.vargas/Desktop/TDD/MarsRover2.0/MarsRovers/MarsRover.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/julian.vargas/Desktop/TDD/MarsRover2.0/MarsRovers/MarsRover.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/julian.vargas/Desktop/TDD/MarsRover2.0/MarsRovers/MarsRoverTest.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://C:/Users/julian.vargas/Desktop/TDD/MarsRover2.0/MarsRovers/MarsRoverTest.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://C:/Users/julian.vargas/Desktop/TDD/MarsRover2.0/MarsRovers/MarsRoverTest.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://C:/Users/julian.vargas/Desktop/TDD/MarsRover2.0/MarsRovers/MarsRoverTest.cs" root0="SKIP_HIGHLIGHTING" />
@@ -61,31 +64,7 @@
       <option name="presentableId" value="Default" />
       <updated>1761064915068</updated>
       <workItem from="1761064916319" duration="19147000" />
-      <workItem from="1761143732575" duration="13027000" />
-    </task>
-    <task id="LOCAL-00016" summary="🟩 Se implementa giro a la derecha a partir de la posicion inicial">
-      <option name="closed" value="true" />
-      <created>1761077249479</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1761077249479</updated>
-    </task>
-    <task id="LOCAL-00017" summary="🟦 Se crea construtor que inicializa la orientacion inicial, y se ajusta el metodo que obtiene la cordenada actual">
-      <option name="closed" value="true" />
-      <created>1761078331162</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1761078331163</updated>
-    </task>
-    <task id="LOCAL-00018" summary="🟥 Si_estoy_en_el_Este_al_girar_a_la_derecha_debe_estar_en_la_coordenada_00S">
-      <option name="closed" value="true" />
-      <created>1761078942268</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1761078942268</updated>
+      <workItem from="1761143732575" duration="14273000" />
     </task>
     <task id="LOCAL-00019" summary="🟩 Se agrega caso para que cuando orientación sea E y haya un giro a la derecha  la orientación sea S">
       <option name="closed" value="true" />
@@ -455,7 +434,31 @@
       <option name="project" value="LOCAL" />
       <updated>1761162724483</updated>
     </task>
-    <option name="localTasksCounter" value="65" />
+    <task id="LOCAL-00065" summary="🔴 Si_OrientacionEsEsteYAvanzoUnaPosicion_Debe_MoverseALaCoordenada10E">
+      <option name="closed" value="true" />
+      <created>1761163482399</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1761163482399</updated>
+    </task>
+    <task id="LOCAL-00066" summary="✅ Si_OrientacionEsEsteYAvanzoUnaPosicion_Debe_MoverseALaCoordenada10E">
+      <option name="closed" value="true" />
+      <created>1761163869138</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1761163869138</updated>
+    </task>
+    <task id="LOCAL-00067" summary="🔷 Se cambio tipado de variable posicion x a entero">
+      <option name="closed" value="true" />
+      <created>1761164161145</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1761164161145</updated>
+    </task>
+    <option name="localTasksCounter" value="68" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -465,9 +468,6 @@
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value=" Se define las propiedades de ubicacion y posicion para obtener su ubicacion" />
-    <MESSAGE value=" Si_El_Comando_Es_RR_Debe_Retonar_00S" />
-    <MESSAGE value=" Si_OrientacionEsEsteYGiroAlaDerecha_Debe_OrientarseAlEsteEnCoordenada00S" />
     <MESSAGE value=" Si_OrientacionEsEsteYGiroAlaDerecha_Debe_OrientarseAlEsteEnCoordenada00S" />
     <MESSAGE value=" Si_OrientacionEsSurYGiroALaDerecha_Debe_OrientarseAlOesteEnCordenada00W" />
     <MESSAGE value="Si_OrientacionEsSurYGiroALaDerecha_Debe_OrientarseAlOesteEnCordenada00W" />
@@ -490,7 +490,10 @@
     <MESSAGE value=" Si_OrientacionEsNorteYAvanzoUnaPosicion_Debe_MoverseALaCoordenada01N" />
     <MESSAGE value="✅ Si_OrientacionEsNorteYAvanzoUnaPosicion_Debe_MoverseALaCoordenada01N" />
     <MESSAGE value=" Se realiza movimiento en posicion Y" />
-    <option name="LAST_COMMIT_MESSAGE" value=" Se realiza movimiento en posicion Y" />
+    <MESSAGE value=" Si_OrientacionEsEsteYAvanzoUnaPosicion_Debe_MoverseALaCoordenada10E" />
+    <MESSAGE value="✅ Si_OrientacionEsEsteYAvanzoUnaPosicion_Debe_MoverseALaCoordenada10E" />
+    <MESSAGE value=" Se cambio tipado de variable posicion x a entero" />
+    <option name="LAST_COMMIT_MESSAGE" value=" Se cambio tipado de variable posicion x a entero" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

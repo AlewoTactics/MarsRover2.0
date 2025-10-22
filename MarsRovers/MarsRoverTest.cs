@@ -1,4 +1,5 @@
 ﻿using FluentAssertions;
+using Xunit.Sdk;
 
 namespace MarsRovers;
 
@@ -80,7 +81,7 @@ public class MarsRoverTest
     }
 
     [Fact]
-    public void  Si_OrientacionEsSurYGiroIzquierda_Debe_OrientarseAlEsteEnCoordenada00E()
+    public void Si_OrientacionEsSurYGiroIzquierda_Debe_OrientarseAlEsteEnCoordenada00E()
     {
         //ARRANGE
         var marsRover = new MarsRover();
@@ -113,10 +114,10 @@ public class MarsRoverTest
     {
         // Arrange
         var marsRover = new MarsRover();
-        
+
         // Act
         string ubicacion = marsRover.EjecutarComando("M");
-        
+
         // Assert
         ubicacion.Should().Be("0:1:N");
     }
@@ -131,7 +132,21 @@ public class MarsRoverTest
         string ubicacion = marsRover.EjecutarComando("M");
         // Assert
         ubicacion.Should().Be("1:0:E");
-        
     }
-    
+
+    [Fact]
+    public void SiLaPosicionEa01SYAvanzo_Debe_Retornar00S()
+    {
+        // Arrange
+        var marsRover = new MarsRover();
+        marsRover.EjecutarComando("M");
+        marsRover.EjecutarComando("R");
+        marsRover.EjecutarComando("R");
+
+        //Act
+        string ubicacion = marsRover.EjecutarComando("M");
+
+        //Assert
+        ubicacion.Should().Be("0:0:S");
+    }
 }
