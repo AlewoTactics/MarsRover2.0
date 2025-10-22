@@ -61,26 +61,3 @@ public class MarsRoverTest
         ubicacion.Should().Be("0:0:N");
     }
 }
-
-public class MarsRover
-{
-    private string _posicionX = "0";
-    private string _posicionY = "0";
-    private string _orientacion = "N";
-
-    public string EjecutarComando(string comando)
-    {
-        if (comando == "R")
-        {
-            _orientacion = _orientacion switch
-            {
-                "N" => "E",
-                "E" => "S",
-                "W" => "N",
-                _ => "W"
-            };
-        }
-        
-        return $"{_posicionX}:{_posicionY}:{_orientacion}";
-    }
-}
