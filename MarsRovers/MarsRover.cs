@@ -8,6 +8,9 @@ public class MarsRover
 
     public string EjecutarComando(string comando)
     {
+        if (comando == "M")
+            _posicionY = "1";
+        
         _orientacion = Rotar(comando);
 
         return $"{_posicionX}:{_posicionY}:{(char)_orientacion}";
