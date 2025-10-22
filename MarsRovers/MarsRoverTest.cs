@@ -191,4 +191,17 @@ public class MarsRoverTest
         // Assert
         ubicacion.Should().Be("0:0:N");
     }
+
+    [Fact]
+    public void Si_SuperaElLimiteEnYHaciaElSur_Debe_RetornarLaCordenanda09S()
+    {
+        // Arrange 
+        var marsRover = new MarsRover();
+        
+        // Act
+        
+        var ubicacion = marsRover.EjecutarComando("LLM");
+        // Assert
+        ubicacion.Should().Be("0:9:S");
+    }
 }
