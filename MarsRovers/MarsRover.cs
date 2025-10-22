@@ -10,15 +10,18 @@ public class MarsRover
 
     public string EjecutarComando(string comando)
     {
-            switch(comando)
+        foreach (char instruccion in comando)
+        {
+            switch(instruccion)
             {
-                case "M" :
+                case 'M' :
                     (_posicionX, _posicionY) = CalcularPosicion(_orientacion, _posicionX, _posicionY);
                     break;
-                case "R" :  _orientacion = GirarDerecha(); break;
-                case "L" : _orientacion = GirarIzquierda(); break;
+                case 'R' :  _orientacion = GirarDerecha(); break;
+                case 'L' : _orientacion = GirarIzquierda(); break;
             };
-
+        }
+        
         return $"{_posicionX}:{_posicionY}:{(char)_orientacion}";
     }
 

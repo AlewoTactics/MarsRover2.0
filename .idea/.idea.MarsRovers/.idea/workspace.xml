@@ -64,23 +64,7 @@
       <option name="presentableId" value="Default" />
       <updated>1761064915068</updated>
       <workItem from="1761064916319" duration="19147000" />
-      <workItem from="1761143732575" duration="17521000" />
-    </task>
-    <task id="LOCAL-00025" summary="🟦 Utilidad de giros ilimitados">
-      <option name="closed" value="true" />
-      <created>1761080961554</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1761080961554</updated>
-    </task>
-    <task id="LOCAL-00026" summary="🟥 giro a la izquierda">
-      <option name="closed" value="true" />
-      <created>1761081122669</created>
-      <option name="number" value="00026" />
-      <option name="presentableId" value="LOCAL-00026" />
-      <option name="project" value="LOCAL" />
-      <updated>1761081122669</updated>
+      <workItem from="1761143732575" duration="18018000" />
     </task>
     <task id="LOCAL-00027" summary="🟩 Se inplementa giro a ka izquierda de norte a oeste">
       <option name="closed" value="true" />
@@ -458,7 +442,23 @@
       <option name="project" value="LOCAL" />
       <updated>1761165529315</updated>
     </task>
-    <option name="localTasksCounter" value="74" />
+    <task id="LOCAL-00074" summary="🔷 independizacion del metodo mover y modificacion del metodo ejecutar comando">
+      <option name="closed" value="true" />
+      <created>1761168025820</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1761168025820</updated>
+    </task>
+    <task id="LOCAL-00075" summary="🔴 Si_ReciboElComandoMMRMMLM_Debe_RetornarLaCoordenada23N">
+      <option name="closed" value="true" />
+      <created>1761168304330</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1761168304330</updated>
+    </task>
+    <option name="localTasksCounter" value="76" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -468,8 +468,6 @@
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value=" Se crea metodo girar derecha" />
-    <MESSAGE value=" Si_OrientacionEsNorteYGiroAlaIzquierda_Debe_OrientarseAlEsteEnCoordenada00W" />
     <MESSAGE value=" Si_OrientacionEsNorteYGiroAlaIzquierda_Debe_OrientarseAlEsteEnCoordenada00W" />
     <MESSAGE value=" Se implementa metodo que asigna la orientacion" />
     <MESSAGE value=" Si_OrientacionEsOesteYGiroALaIzquierda_Debe_OrientarseAlSurEnCoordenada00S" />
@@ -493,7 +491,9 @@
     <MESSAGE value="SI_LaPosicionEs01WYAvanzo_Debe_Retornar00W" />
     <MESSAGE value=" SI_LaPosicionEs01WYAvanzo_Debe_Retornar00W" />
     <MESSAGE value="✅SI_LaPosicionEs01WYAvanzo_Debe_Retornar00W" />
-    <option name="LAST_COMMIT_MESSAGE" value="✅SI_LaPosicionEs01WYAvanzo_Debe_Retornar00W" />
+    <MESSAGE value=" independizacion del metodo mover y modificacion del metodo ejecutar comando" />
+    <MESSAGE value=" Si_ReciboElComandoMMRMMLM_Debe_RetornarLaCoordenada23N" />
+    <option name="LAST_COMMIT_MESSAGE" value=" Si_ReciboElComandoMMRMMLM_Debe_RetornarLaCoordenada23N" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
