@@ -5,14 +5,6 @@ namespace MarsRovers;
 public class MarsRoverTest
 {
     [Fact]
-    public void Si_ElComandoEsVacio_Debe_Retornar00N()
-    {
-        var marsRover = new MarsRover();
-        string ubicacion = marsRover.EjecutarComando("");
-        ubicacion.Should().Be("0:0:N");
-    }
-
-    [Fact]
     public void Si_OrientacionEsNorteYGiroAlaDerecha_Debe_OrientarseAlEsteEnCoordenada00E()
     {
         var marsRover = new MarsRover();

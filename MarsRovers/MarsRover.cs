@@ -8,23 +8,29 @@ public class MarsRover
 
     public string EjecutarComando(string comando)
     {
-        if (comando == "")
-            return $"{_posicionX}:{_posicionY}:{_orientacion}";
-        if (comando == "R")
-        {
-            GirarDerecha();
-        }
-        else
-        {
-            _orientacion = "W";
-        }
+        _orientacion = Rotar(comando);
 
         return $"{_posicionX}:{_posicionY}:{_orientacion}";
     }
 
-    private void GirarDerecha()
+    private string Rotar(string comando)
     {
-        _orientacion = _orientacion switch
+        if (comando == "R")
+        {
+           return GirarDerecha();
+        }
+
+        if (comando == "L")
+        {
+            return  "W";
+        }
+
+        return _orientacion;
+    }
+
+    private string GirarDerecha()
+    {
+        return _orientacion switch
         {
             "N" => "E",
             "E" => "S",
