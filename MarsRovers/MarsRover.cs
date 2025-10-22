@@ -30,6 +30,7 @@ public class MarsRover
             "N" => "W",
             "W" => "S",
             "S" => "E",
+            "E" => "N",
             _ => _orientacion
         };
     }
