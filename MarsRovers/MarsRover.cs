@@ -2,7 +2,7 @@
 
 public class MarsRover
 {
-    private string _posicionX = "0";
+    private int _posicionX = 0;
     private int _posicionY = 0;
     private PuntoCardinal _orientacion = PuntoCardinal.Norte;
 
@@ -18,7 +18,7 @@ public class MarsRover
             {
                 if (_orientacion == PuntoCardinal.Este)
                 {
-                    _posicionX = "1";
+                    _posicionX ++;
                 }
             }
         }
