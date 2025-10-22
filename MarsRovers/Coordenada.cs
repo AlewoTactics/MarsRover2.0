@@ -9,33 +9,25 @@ public class Coordenada(int x, int y)
     private const int MagnitudDesplazamiento = 1;
     public override string ToString() => $"{x}:{y}";
 
-    public Coordenada IrAlNorte()
-    {
-        if (y == LimiteNorte)
-            return new Coordenada(x, LimiteSur);
+    public Coordenada IrAlNorte() => EstaEnLimiteNorte() ? TeletransportarseAlSur() : AvanzarAlNorte();
+    public Coordenada IrAlSur() => EstaEnLimiteSur() ? TeletransportarseAlNorte() : AvanzarAlSur();
+    public Coordenada IrAlEste() => EstaEnLimiteEste() ? TeletransportarseAlOeste() : AvanzarAlEste();
+    public Coordenada IrAlOeste() => EstaEnLimiteOeste() ? TeletransportarseAlEste() : AvanzarAlOeste();
 
-        return new Coordenada(x, y + MagnitudDesplazamiento);
-    }
 
-    public Coordenada IrAlSur()
-    {
-        if (y == LimiteSur)
-            return new Coordenada(x, LimiteNorte);
-        return new Coordenada(x, y - MagnitudDesplazamiento);
-    }
+    private bool EstaEnLimiteNorte() => y == LimiteNorte;
+    private bool EstaEnLimiteSur() => y == LimiteSur;
+    private bool EstaEnLimiteEste() => x == LimiteEste;
+    private bool EstaEnLimiteOeste() => x == LimiteOeste;
+    
+    private Coordenada AvanzarAlNorte() => new(x, y + MagnitudDesplazamiento);
+    private Coordenada AvanzarAlOeste() => new(x - MagnitudDesplazamiento, y);
+    private Coordenada AvanzarAlSur() => new(x, y - MagnitudDesplazamiento);
+    private Coordenada AvanzarAlEste() => new(x + MagnitudDesplazamiento, y);
+    
+    private Coordenada TeletransportarseAlNorte() => new(x, LimiteNorte);
+    private Coordenada TeletransportarseAlSur() => new(x, LimiteSur);
+    private Coordenada TeletransportarseAlEste() => new(LimiteEste, y);
+    private Coordenada TeletransportarseAlOeste() => new(LimiteOeste, y);
 
-    public Coordenada IrAlOeste()
-    {
-        if (x == LimiteOeste)
-            return new Coordenada(LimiteEste, y);
-        
-        return new Coordenada(x - MagnitudDesplazamiento, y);
-    }
-
-    public Coordenada IrAlEste()
-    {
-        if (x == LimiteEste)
-            return new Coordenada(LimiteOeste, y);
-        return new Coordenada(x + MagnitudDesplazamiento, y);
-    }
 }

@@ -5,6 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="df522766-fe64-4992-a8d8-fa8d24149c16" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.MarsRovers/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MarsRovers/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MarsRovers/Coordenada.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MarsRovers/Coordenada.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MarsRovers/MarsRoverTest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MarsRovers/MarsRoverTest.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -64,23 +66,7 @@
       <option name="presentableId" value="Default" />
       <updated>1761064915068</updated>
       <workItem from="1761064916319" duration="19147000" />
-      <workItem from="1761143732575" duration="22602000" />
-    </task>
-    <task id="LOCAL-00037" summary="🟦 Si_ElComandoEsVacio_Debe_Retornar00N">
-      <option name="closed" value="true" />
-      <created>1761147093559</created>
-      <option name="number" value="00037" />
-      <option name="presentableId" value="LOCAL-00037" />
-      <option name="project" value="LOCAL" />
-      <updated>1761147093559</updated>
-    </task>
-    <task id="LOCAL-00038" summary="🟥 Si_ElComandoEsR_Debe_Retornar00E">
-      <option name="closed" value="true" />
-      <created>1761150585243</created>
-      <option name="number" value="00038" />
-      <option name="presentableId" value="LOCAL-00038" />
-      <option name="project" value="LOCAL" />
-      <updated>1761150585243</updated>
+      <workItem from="1761143732575" duration="26518000" />
     </task>
     <task id="LOCAL-00039" summary="🟩 Si_ElComandoEsR_Debe_Retornar00E">
       <option name="closed" value="true" />
@@ -458,7 +444,23 @@
       <option name="project" value="LOCAL" />
       <updated>1761172954386</updated>
     </task>
-    <option name="localTasksCounter" value="86" />
+    <task id="LOCAL-00086" summary="🔴Si_SuperaElLimiteEnXHaciaOEste_Debe_RetornarLaCoordenada90W">
+      <option name="closed" value="true" />
+      <created>1761173032513</created>
+      <option name="number" value="00086" />
+      <option name="presentableId" value="LOCAL-00086" />
+      <option name="project" value="LOCAL" />
+      <updated>1761173032513</updated>
+    </task>
+    <task id="LOCAL-00087" summary="✅Si_SuperaElLimiteEnXHaciaOEste_Debe_RetornarLaCoordenada90W">
+      <option name="closed" value="true" />
+      <created>1761173164391</created>
+      <option name="number" value="00087" />
+      <option name="presentableId" value="LOCAL-00087" />
+      <option name="project" value="LOCAL" />
+      <updated>1761173164392</updated>
+    </task>
+    <option name="localTasksCounter" value="88" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -468,8 +470,6 @@
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value=" Se crea enumerable con puntos cardinales" />
-    <MESSAGE value=" Si_OrientacionEsNorteYAvanzoUnaPosicion_Debe_MoverseALaCoordenada01N" />
     <MESSAGE value="✅ Si_OrientacionEsNorteYAvanzoUnaPosicion_Debe_MoverseALaCoordenada01N" />
     <MESSAGE value=" Se realiza movimiento en posicion Y" />
     <MESSAGE value=" Si_OrientacionEsEsteYAvanzoUnaPosicion_Debe_MoverseALaCoordenada10E" />
@@ -493,7 +493,9 @@
     <MESSAGE value="Si_SuperaElLimiteEnXHaciaEste_Debe_RetornarLaCoordenada00E" />
     <MESSAGE value="✅Si_SuperaElLimiteEnXHaciaEste_Debe_RetornarLaCoordenada00E" />
     <MESSAGE value="Se agrega constate con valor de limite al este y limite al oeste" />
-    <option name="LAST_COMMIT_MESSAGE" value="Se agrega constate con valor de limite al este y limite al oeste" />
+    <MESSAGE value="Si_SuperaElLimiteEnXHaciaOEste_Debe_RetornarLaCoordenada90W" />
+    <MESSAGE value="✅Si_SuperaElLimiteEnXHaciaOEste_Debe_RetornarLaCoordenada90W" />
+    <option name="LAST_COMMIT_MESSAGE" value="✅Si_SuperaElLimiteEnXHaciaOEste_Debe_RetornarLaCoordenada90W" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
