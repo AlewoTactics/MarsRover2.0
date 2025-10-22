@@ -25,13 +25,13 @@ public class MarsRover
 
     private string GirarIzquierda()
     {
-        if (_orientacion == "N")
-            return "W";
-        if (_orientacion == "W")
-            return "S";
-        if (_orientacion == "S")
-            return "E";
-        return _orientacion;
+        return _orientacion switch
+        {
+            "N" => "W",
+            "W" => "S",
+            "S" => "E",
+            _ => _orientacion
+        };
     }
 
     private string GirarDerecha()
