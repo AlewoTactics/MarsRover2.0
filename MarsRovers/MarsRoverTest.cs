@@ -56,21 +56,13 @@ public class MarsRover
     {
         if (comando == "R")
         {
-            if (_orientacion == "N")
+            _orientacion = _orientacion switch
             {
-                _orientacion = "E";
-            }
-            else if( _orientacion == "E")
-            {
-               _orientacion = "S";
-            }
-            else
-            {
-                _orientacion = "W";
-            }
+                "N" => "E",
+                "E" => "S",
+                _ => "W"
+            };
         }
-
-
         
         return $"{_posicionX}:{_posicionY}:{_orientacion}";
     }
