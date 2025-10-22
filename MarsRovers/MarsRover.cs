@@ -4,37 +4,33 @@ namespace MarsRovers;
 
 public class MarsRover
 {
-    private int _posicionX = 0;
-    private int _posicionY = 0;
+    private Coordenada _coordenada = new(0, 0);
     private PuntoCardinal _orientacion = PuntoCardinal.Norte;
 
     public string EjecutarComando(string comando)
     {
         foreach (char instruccion in comando)
         {
-            switch(instruccion)
+            switch (instruccion)
             {
-                case 'M' :
-                    (_posicionX, _posicionY) = CalcularPosicion(_orientacion, _posicionX, _posicionY);
-                    break;
-                case 'R' :  _orientacion = GirarDerecha(); break;
-                case 'L' : _orientacion = GirarIzquierda(); break;
-            };
+                case 'M': _coordenada = CalcularPosicion(_orientacion, _coordenada); break;
+                case 'R': _orientacion = GirarDerecha(); break;
+                case 'L': _orientacion = GirarIzquierda(); break;
+            }
         }
         
-        return $"{_posicionX}:{_posicionY}:{(char)_orientacion}";
+        return $"{_coordenada}:{(char)_orientacion}";
     }
 
 
-    private static (int posicionFinalX, int posicionFinalY) CalcularPosicion(PuntoCardinal orientacionInicial,
-        int posicionInicialX, int posicionInicialY)
+    private static Coordenada CalcularPosicion(PuntoCardinal orientacionInicial, Coordenada posicionInicial)
     {
         return orientacionInicial switch
         {
-            PuntoCardinal.Norte => (posicionInicialX, posicionInicialY + 1),
-            PuntoCardinal.Sur => (posicionInicialX, posicionInicialY - 1),
-            PuntoCardinal.Oeste => (posicionInicialX - 1, posicionInicialY),
-            _ => (posicionInicialX + 1, posicionInicialY)
+            PuntoCardinal.Norte => posicionInicial.IrAlNorte(), 
+            PuntoCardinal.Sur => posicionInicial.IrAlSur(), 
+            PuntoCardinal.Oeste => posicionInicial.IrAlOeste(), 
+            _ => posicionInicial.IrAlEste() 
         };
     }
 
