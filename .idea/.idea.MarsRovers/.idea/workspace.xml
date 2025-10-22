@@ -6,9 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="df522766-fe64-4992-a8d8-fa8d24149c16" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.MarsRovers/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MarsRovers/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MarsRovers.sln.DotSettings.user" beforeDir="false" afterPath="$PROJECT_DIR$/MarsRovers.sln.DotSettings.user" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MarsRovers/MarsRoverTest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MarsRovers/MarsRoverTest.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MarsRovers/Ubicacion.cs" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +55,7 @@
       <option name="presentableId" value="Default" />
       <updated>1761064915068</updated>
       <workItem from="1761064916319" duration="19147000" />
-      <workItem from="1761143732575" duration="3113000" />
+      <workItem from="1761143732575" duration="4113000" />
     </task>
     <task id="LOCAL-00001" summary="Commit inicial">
       <option name="closed" value="true" />
@@ -331,7 +329,31 @@
       <option name="project" value="LOCAL" />
       <updated>1761084606547</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="🟥 Si_ElComandoEsVacio_Debe_Retornar00N">
+      <option name="closed" value="true" />
+      <created>1761146890662</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1761146890662</updated>
+    </task>
+    <task id="LOCAL-00036" summary="🟩 Si_ElComandoEsVacio_Debe_Retornar00N">
+      <option name="closed" value="true" />
+      <created>1761146946662</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1761146946662</updated>
+    </task>
+    <task id="LOCAL-00037" summary="🟦 Si_ElComandoEsVacio_Debe_Retornar00N">
+      <option name="closed" value="true" />
+      <created>1761147093559</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1761147093559</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -341,9 +363,6 @@
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value=" dar dos giros a la izquierda" />
-    <MESSAGE value=" Fake de girar a la izquierda dos veces" />
-    <MESSAGE value=" Creacion del objeto ubicacion para obtener coordenas actuales" />
     <MESSAGE value=" se establece ubicacion inicial" />
     <MESSAGE value=" Se establece constante para la coordenada inicial" />
     <MESSAGE value=" realizar un giro a la derecha" />
@@ -366,7 +385,10 @@
     <MESSAGE value=" cardinalidad sur a este" />
     <MESSAGE value=" Giro a izquierda desde el este" />
     <MESSAGE value=" Se agrega giro a la izquierda desde el este al norte" />
-    <option name="LAST_COMMIT_MESSAGE" value=" Se agrega giro a la izquierda desde el este al norte" />
+    <MESSAGE value=" Si_ElComandoEsVacio_Debe_Retornar00N" />
+    <MESSAGE value=" Si_ElComandoEsVacio_Debe_Retornar00N" />
+    <MESSAGE value=" Si_ElComandoEsVacio_Debe_Retornar00N" />
+    <option name="LAST_COMMIT_MESSAGE" value=" Si_ElComandoEsVacio_Debe_Retornar00N" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
