@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="df522766-fe64-4992-a8d8-fa8d24149c16" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/MarsRovers/MarsRoverTest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MarsRovers/MarsRoverTest.cs" afterDir="false" />
-    </list>
+    <list default="true" id="df522766-fe64-4992-a8d8-fa8d24149c16" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,6 +15,13 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="mock://C:/Users/julian.vargas/Desktop/TDD/MarsRover2.0/MarsRovers/MarsRover.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/julian.vargas/Desktop/TDD/MarsRover2.0/MarsRovers/MarsRover.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/julian.vargas/Desktop/TDD/MarsRover2.0/MarsRovers/MarsRoverTest.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/julian.vargas/Desktop/TDD/MarsRover2.0/MarsRovers/MarsRoverTest.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/julian.vargas/Desktop/TDD/MarsRover2.0/MarsRovers/MarsRoverTest.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProjectColorInfo">{
@@ -54,39 +59,7 @@
       <option name="presentableId" value="Default" />
       <updated>1761064915068</updated>
       <workItem from="1761064916319" duration="19147000" />
-      <workItem from="1761143732575" duration="5605000" />
-    </task>
-    <task id="LOCAL-00001" summary="Commit inicial">
-      <option name="closed" value="true" />
-      <created>1761065945492</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1761065945492</updated>
-    </task>
-    <task id="LOCAL-00002" summary="🟩 Si_enviamos_comando_vacio_debe_retornar_coordena_00N">
-      <option name="closed" value="true" />
-      <created>1761066143077</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1761066143077</updated>
-    </task>
-    <task id="LOCAL-00003" summary="🟦 Si_enviamos_comando_vacio_debe_retornar_coordena_00N">
-      <option name="closed" value="true" />
-      <created>1761066249128</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1761066249128</updated>
-    </task>
-    <task id="LOCAL-00004" summary="🟥 Si_enviamos_comando_R_debe_retornar_coordenada_OOE">
-      <option name="closed" value="true" />
-      <created>1761066717588</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1761066717588</updated>
+      <workItem from="1761143732575" duration="8756000" />
     </task>
     <task id="LOCAL-00005" summary="🟩 Si_enviamos_comando_R_debe_retornar_coordenada_OOE">
       <option name="closed" value="true" />
@@ -392,7 +365,95 @@
       <option name="project" value="LOCAL" />
       <updated>1761151888437</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="🟩 Si_OrientacionEsEsteYGiroAlaDerecha_Debe_OrientarseAlEsteEnCoordenada00S">
+      <option name="closed" value="true" />
+      <created>1761152111105</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1761152111105</updated>
+    </task>
+    <task id="LOCAL-00044" summary="🟥 Si_OrientacionEsSurYGiroALaDerecha_Debe_OrientarseAlOesteEnCordenada00W">
+      <option name="closed" value="true" />
+      <created>1761152288854</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1761152288854</updated>
+    </task>
+    <task id="LOCAL-00045" summary="🟩Si_OrientacionEsSurYGiroALaDerecha_Debe_OrientarseAlOesteEnCordenada00W">
+      <option name="closed" value="true" />
+      <created>1761152360757</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1761152360757</updated>
+    </task>
+    <task id="LOCAL-00046" summary="🟦 se cambia ifs anidados por switch para sean mas legibles">
+      <option name="closed" value="true" />
+      <created>1761152449211</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1761152449211</updated>
+    </task>
+    <task id="LOCAL-00047" summary="🟥 Si_OrientacionEsOesteYGiroALaDerecha_Debe_OrientarseAlNorteEnCordenada00N">
+      <option name="closed" value="true" />
+      <created>1761152582617</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1761152582617</updated>
+    </task>
+    <task id="LOCAL-00048" summary="🟩 Si_OrientacionEsOesteYGiroALaDerecha_Debe_OrientarseAlNorteEnCordenada00N">
+      <option name="closed" value="true" />
+      <created>1761152788553</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1761152788553</updated>
+    </task>
+    <task id="LOCAL-00049" summary="🟦 Se crea metodo girar derecha">
+      <option name="closed" value="true" />
+      <created>1761153186562</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1761153186562</updated>
+    </task>
+    <task id="LOCAL-00050" summary="🟥 Si_OrientacionEsNorteYGiroAlaIzquierda_Debe_OrientarseAlEsteEnCoordenada00W">
+      <option name="closed" value="true" />
+      <created>1761153310076</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1761153310077</updated>
+    </task>
+    <task id="LOCAL-00051" summary="🟩 Si_OrientacionEsNorteYGiroAlaIzquierda_Debe_OrientarseAlEsteEnCoordenada00W">
+      <option name="closed" value="true" />
+      <created>1761153606118</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1761153606118</updated>
+    </task>
+    <task id="LOCAL-00052" summary="🟦 Se implementa metodo que asigna la orientacion">
+      <option name="closed" value="true" />
+      <created>1761155034692</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1761155034692</updated>
+    </task>
+    <task id="LOCAL-00053" summary="🟥 Si_OrientacionEsOesteYGiroALaIzquierda_Debe_OrientarseAlSurEnCoordenada00S">
+      <option name="closed" value="true" />
+      <created>1761155207648</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1761155207648</updated>
+    </task>
+    <option name="localTasksCounter" value="54" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -402,17 +463,6 @@
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value=" Si_estoy_en_el_Este_al_girar_a_la_derecha_debe_estar_en_la_coordenada_00S" />
-    <MESSAGE value=" Se agrega caso para que cuando orientación sea E y haya un giro a la derecha  la orientación sea S" />
-    <MESSAGE value=" Si_estoy_en_el_Sur_al_girar_a_la_derecha_debe_estar_en_la_coordenada_00W" />
-    <MESSAGE value=" se agrega caso de giro a la derecha para el oeste desde direccion sur" />
-    <MESSAGE value=" se mejora la legibilidad" />
-    <MESSAGE value=" Si_estoy_en_el_oeste_y_giro_derecha_debe_estar_en_la_coordenada_00N" />
-    <MESSAGE value=" Se agrega giro a la derecha de oeste a norte" />
-    <MESSAGE value=" Utilidad de giros ilimitados" />
-    <MESSAGE value=" giro a la izquierda" />
-    <MESSAGE value=" Se inplementa giro a ka izquierda de norte a oeste" />
-    <MESSAGE value=" Si_giro_a_la_izquierda_desde_el_oeste_debe_retornar_la_coordenada_00S" />
     <MESSAGE value=" Se agrega giro a la izquierda desde el oeste al sur" />
     <MESSAGE value=" Se realiza tipado de los puntos cardinales y los giros y se ajustan test" />
     <MESSAGE value=" girar a la izquierda desde el sur" />
@@ -427,7 +477,18 @@
     <MESSAGE value=" Se define las propiedades de ubicacion y posicion para obtener su ubicacion" />
     <MESSAGE value=" Si_El_Comando_Es_RR_Debe_Retonar_00S" />
     <MESSAGE value=" Si_OrientacionEsEsteYGiroAlaDerecha_Debe_OrientarseAlEsteEnCoordenada00S" />
-    <option name="LAST_COMMIT_MESSAGE" value=" Si_OrientacionEsEsteYGiroAlaDerecha_Debe_OrientarseAlEsteEnCoordenada00S" />
+    <MESSAGE value=" Si_OrientacionEsEsteYGiroAlaDerecha_Debe_OrientarseAlEsteEnCoordenada00S" />
+    <MESSAGE value=" Si_OrientacionEsSurYGiroALaDerecha_Debe_OrientarseAlOesteEnCordenada00W" />
+    <MESSAGE value="Si_OrientacionEsSurYGiroALaDerecha_Debe_OrientarseAlOesteEnCordenada00W" />
+    <MESSAGE value=" se cambia ifs anidados por switch para sean mas legibles" />
+    <MESSAGE value=" Si_OrientacionEsOesteYGiroALaDerecha_Debe_OrientarseAlNorteEnCordenada00N" />
+    <MESSAGE value=" Si_OrientacionEsOesteYGiroALaDerecha_Debe_OrientarseAlNorteEnCordenada00N" />
+    <MESSAGE value=" Se crea metodo girar derecha" />
+    <MESSAGE value=" Si_OrientacionEsNorteYGiroAlaIzquierda_Debe_OrientarseAlEsteEnCoordenada00W" />
+    <MESSAGE value=" Si_OrientacionEsNorteYGiroAlaIzquierda_Debe_OrientarseAlEsteEnCoordenada00W" />
+    <MESSAGE value=" Se implementa metodo que asigna la orientacion" />
+    <MESSAGE value=" Si_OrientacionEsOesteYGiroALaIzquierda_Debe_OrientarseAlSurEnCoordenada00S" />
+    <option name="LAST_COMMIT_MESSAGE" value=" Si_OrientacionEsOesteYGiroALaIzquierda_Debe_OrientarseAlSurEnCoordenada00S" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

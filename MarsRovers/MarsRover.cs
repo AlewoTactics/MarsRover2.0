@@ -17,12 +17,14 @@ public class MarsRover
     {
         if (comando == "R")
         {
-           return GirarDerecha();
+            return GirarDerecha();
         }
 
         if (comando == "L")
         {
-            return  "W";
+            if (_orientacion == "N")
+                return "W";
+            return "S";
         }
 
         return _orientacion;
