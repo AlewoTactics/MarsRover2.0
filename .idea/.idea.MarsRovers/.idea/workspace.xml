@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="df522766-fe64-4992-a8d8-fa8d24149c16" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/MarsRovers/Coordenada.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MarsRovers/Coordenada.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.MarsRovers/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MarsRovers/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MarsRovers/CoordenadaTest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MarsRovers/CoordenadaTest.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,15 +63,7 @@
       <workItem from="1761064916319" duration="19147000" />
       <workItem from="1761143732575" duration="26892000" />
       <workItem from="1761225868868" duration="3474000" />
-      <workItem from="1761232258428" duration="10753000" />
-    </task>
-    <task id="LOCAL-00050" summary="🟥 Si_OrientacionEsNorteYGiroAlaIzquierda_Debe_OrientarseAlEsteEnCoordenada00W">
-      <option name="closed" value="true" />
-      <created>1761153310076</created>
-      <option name="number" value="00050" />
-      <option name="presentableId" value="LOCAL-00050" />
-      <option name="project" value="LOCAL" />
-      <updated>1761153310077</updated>
+      <workItem from="1761232258428" duration="11707000" />
     </task>
     <task id="LOCAL-00051" summary="🟩 Si_OrientacionEsNorteYGiroAlaIzquierda_Debe_OrientarseAlEsteEnCoordenada00W">
       <option name="closed" value="true" />
@@ -456,7 +449,15 @@
       <option name="project" value="LOCAL" />
       <updated>1761249670244</updated>
     </task>
-    <option name="localTasksCounter" value="99" />
+    <task id="LOCAL-00099" summary="✅Si_RecibeUnaCoordernadaMayorDelLimiteY_Debe_LanzarUnaExcepcion">
+      <option name="closed" value="true" />
+      <created>1761249829275</created>
+      <option name="number" value="00099" />
+      <option name="presentableId" value="LOCAL-00099" />
+      <option name="project" value="LOCAL" />
+      <updated>1761249829275</updated>
+    </task>
+    <option name="localTasksCounter" value="100" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -466,7 +467,6 @@
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value=" independizacion del metodo mover y modificacion del metodo ejecutar comando" />
     <MESSAGE value=" Si_ReciboElComandoMMRMMLM_Debe_RetornarLaCoordenada23N" />
     <MESSAGE value="Si_ReciboElComandoMMRMMLM_Debe_RetornarLaCoordenada23N" />
     <MESSAGE value=" Se crea objeto coordenada para calcular los puntos x y internamente" />
@@ -491,7 +491,8 @@
     <MESSAGE value="Si_RecibeUnaCoordernadaMenorDelLimiteX_Debe_LanzarUnaExcepcion" />
     <MESSAGE value="✅Si_RecibeUnaCoordernadaMenorDelLimiteX_Debe_LanzarUnaExcepcion" />
     <MESSAGE value="Si_RecibeUnaCoordernadaMayorDelLimiteY_Debe_LanzarUnaExcepcion" />
-    <option name="LAST_COMMIT_MESSAGE" value="Si_RecibeUnaCoordernadaMayorDelLimiteY_Debe_LanzarUnaExcepcion" />
+    <MESSAGE value="✅Si_RecibeUnaCoordernadaMayorDelLimiteY_Debe_LanzarUnaExcepcion" />
+    <option name="LAST_COMMIT_MESSAGE" value="✅Si_RecibeUnaCoordernadaMayorDelLimiteY_Debe_LanzarUnaExcepcion" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
