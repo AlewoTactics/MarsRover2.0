@@ -78,16 +78,10 @@ public class MarsRoverTest
     [Fact]
     public void Si_RecibeUnaCoordernadaFueraDelLimite_Debe_LazarUnaExcepcion()
     {
-        // Arrange
-        var ubicacionInicial = new Coordenada(12, 1);  
-        var orientacion = PuntoCardinal.Sur;
+        Action coordena =()=> new Coordenada(12, 0);
         
-        //Act
-        Action marsRover =()=> MarsRover.UbicarEn(ubicacionInicial, orientacion);
+        coordena.Should().Throw<ArgumentOutOfRangeException>().WithMessage("La coordenada supera el límite máximo 9");
         
-        //Assert
-        marsRover.Should().Throw<ArgumentException>().WithMessage("Esta fuera del limite");
-
     }
     
 }

@@ -16,6 +16,7 @@ public class MarsRover
 
     public static MarsRover UbicarEn(Coordenada ubicacionInicial, PuntoCardinal orientacionInicial)
     {
+       
         return new MarsRover(ubicacionInicial, orientacionInicial);
     }
 
