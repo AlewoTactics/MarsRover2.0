@@ -4,6 +4,7 @@ public class Coordenada
 {
     private readonly int _x;
     private string[] _campoEjeX;
+    private string[] _campoEjeY;
 
     private readonly int _y;
     private const int LimiteNorte = 9;
@@ -18,6 +19,7 @@ public class Coordenada
         _x = x;
         _y = y;
         _campoEjeX = new string[LimiteEste];
+        _campoEjeY =new string[LimiteNorte];
     }
 
     public void AsignarElemento(int x, string elemento)
@@ -72,4 +74,14 @@ public class Coordenada
     private Coordenada TeletransportarseAlSur() => new(_x, LimiteSur);
     private Coordenada TeletransportarseAlEste() => new(LimiteEste, _y);
     private Coordenada TeletransportarseAlOeste() => new(LimiteOeste, _y);
+
+    public void AsignarElementoEnY(int y, string elemento)
+    {
+        _campoEjeY[y] = elemento;
+    }
+
+    public object ObtenerElementoEnY(int y)
+    {
+        return _campoEjeY[y];
+    }
 }

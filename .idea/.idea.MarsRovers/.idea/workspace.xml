@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="df522766-fe64-4992-a8d8-fa8d24149c16" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.MarsRovers/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MarsRovers/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MarsRovers/Coordenada.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MarsRovers/Coordenada.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MarsRovers/CoordenadaTest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MarsRovers/CoordenadaTest.cs" afterDir="false" />
     </list>
@@ -68,15 +69,7 @@
       <workItem from="1761064916319" duration="19147000" />
       <workItem from="1761143732575" duration="26892000" />
       <workItem from="1761225868868" duration="3474000" />
-      <workItem from="1761232258428" duration="20442000" />
-    </task>
-    <task id="LOCAL-00059" summary="🔴Si_OrientacionEsEsteYGiroAlaIzquierda_Debe_OrientarseAlNoreEnCoordenada00N">
-      <option name="closed" value="true" />
-      <created>1761156155193</created>
-      <option name="number" value="00059" />
-      <option name="presentableId" value="LOCAL-00059" />
-      <option name="project" value="LOCAL" />
-      <updated>1761156155193</updated>
+      <workItem from="1761232258428" duration="21619000" />
     </task>
     <task id="LOCAL-00060" summary="✅ Si_OrientacionEsEsteYGiroAlaIzquierda_Debe_OrientarseAlNoreEnCoordenada00N">
       <option name="closed" value="true" />
@@ -462,7 +455,15 @@
       <option name="project" value="LOCAL" />
       <updated>1761259454133</updated>
     </task>
-    <option name="localTasksCounter" value="108" />
+    <task id="LOCAL-00108" summary="🔷 Cambio nombre de metodo">
+      <option name="closed" value="true" />
+      <created>1761259564083</created>
+      <option name="number" value="00108" />
+      <option name="presentableId" value="LOCAL-00108" />
+      <option name="project" value="LOCAL" />
+      <updated>1761259564083</updated>
+    </task>
+    <option name="localTasksCounter" value="109" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -472,7 +473,6 @@
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value="Si_SuperaElLimiteEnXHaciaEste_Debe_RetornarLaCoordenada00E" />
     <MESSAGE value="✅Si_SuperaElLimiteEnXHaciaEste_Debe_RetornarLaCoordenada00E" />
     <MESSAGE value="Se agrega constate con valor de limite al este y limite al oeste" />
     <MESSAGE value="Si_SuperaElLimiteEnXHaciaOEste_Debe_RetornarLaCoordenada90W" />
@@ -497,7 +497,8 @@
     <MESSAGE value="definicion de almacenamientos de objeto en plano" />
     <MESSAGE value=" Si_AterrizoElRoverEnUnaCoordenadaQueYaContieneUnElemento_Debe_RetornarUnaExcepcion" />
     <MESSAGE value="✅ Si_AterrizoElRoverEnUnaCoordenadaQueYaContieneUnElemento_Debe_RetornarUnaExcepcion" />
-    <option name="LAST_COMMIT_MESSAGE" value="✅ Si_AterrizoElRoverEnUnaCoordenadaQueYaContieneUnElemento_Debe_RetornarUnaExcepcion" />
+    <MESSAGE value=" Cambio nombre de metodo" />
+    <option name="LAST_COMMIT_MESSAGE" value=" Cambio nombre de metodo" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

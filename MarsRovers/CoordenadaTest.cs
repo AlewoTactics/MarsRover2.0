@@ -65,4 +65,12 @@ public class CoordenadaTest
         //Assert
         action.Should().Throw<ArgumentException>().WithMessage("*La posición ya contiene un elemento.*");
     }
+
+    [Fact]
+    public void Si_AterrizoElRoverEnLaCoordenada10N_Debe_RetornarR()
+    {
+        var coordenada = new Coordenada(0, 1);
+        coordenada.AsignarElementoEnY(1, "R");
+        coordenada.ObtenerElementoEnY(1).Should().Be("R");
+    }
 }
