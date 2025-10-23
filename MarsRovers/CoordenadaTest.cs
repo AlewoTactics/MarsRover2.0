@@ -22,4 +22,13 @@ public class CoordenadaTest
         coordenada.Should()
             .Throw<ArgumentOutOfRangeException>().WithMessage("*La coordenada en x (-1) no se encuentra en el rango de la plataforma*"); 
     }
+    
+    [Fact]
+    public void Si_RecibeUnaCoordernadaMayorDelLimiteY_Debe_LanzarUnaExcepcion()
+    {
+        Action coordenada =()=> new Coordenada(0, 12);
+        
+        coordenada.Should()
+            .Throw<ArgumentOutOfRangeException>().WithMessage("*La coordenada en y (12) no se encuentra en el rango de la plataforma*"); 
+    }
 }
