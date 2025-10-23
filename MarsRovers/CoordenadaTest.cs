@@ -46,14 +46,11 @@ public class CoordenadaTest
     [Fact]
     public void Si_AterrizoUnRovertEnLaCoordenada00N_Debe_Retornar_ValorR()
     {
-        //Arrage
-        var rover = MarsRover.UbicarEn00N();
-
-        //Act
-        var coordenada = new Coordenada(0, 0, rover);
-        coordenada.ObtenerElemento().Should().Be("R");
+        
+        var coordenada = new Coordenada(0,0);
+        coordenada.crearElemento(0,"R");
+        coordenada.ObtenerElemento(0).Should().Be("R");
     }
 
 }
 
-    

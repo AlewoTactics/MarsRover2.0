@@ -2,8 +2,9 @@
 
 public class Coordenada
 {
-    private readonly MarsRover _rover;
     private readonly int _x;
+    private string[] _campoEjeX;
+    
     private readonly int _y;
     private const int LimiteNorte = 9;
     private const int LimiteSur = 0;
@@ -16,14 +17,20 @@ public class Coordenada
         ValidarLimites(x, y);
         _x = x;
         _y = y;
+        _campoEjeX= new string[LimiteEste];
+    }
+    
+    public void crearElemento(int x, string elemento)
+    {
+        _campoEjeX[x] = elemento;
+    }
+    
+    public string ObtenerElemento(int x)
+    {
+        return _campoEjeX[x];
     }
 
-    public Coordenada(int x, int y, MarsRover rover)
-    {
-        _rover = rover;
-        _x = y;
-        _y = y;
-    }
+   
 
     private static void ValidarLimites(int x, int y)
     {
@@ -65,8 +72,5 @@ public class Coordenada
     private Coordenada TeletransportarseAlEste() => new(LimiteEste, _y);
     private Coordenada TeletransportarseAlOeste() => new(LimiteOeste, _y);
 
-    public string ObtenerElemento()
-    {
-        return "R";
-    }
+   
 }

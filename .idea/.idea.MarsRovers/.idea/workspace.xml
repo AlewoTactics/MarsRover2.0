@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="df522766-fe64-4992-a8d8-fa8d24149c16" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.MarsRovers/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MarsRovers/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MarsRovers/Coordenada.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MarsRovers/Coordenada.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MarsRovers/CoordenadaTest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MarsRovers/CoordenadaTest.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +27,10 @@
     <setting file="mock://C:/Users/julian.vargas/Desktop/TDD/MarsRover2.0/MarsRovers/MarsRover.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/MarsRovers/PlataformaTest.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
+  <component name="KubernetesApiPersistence"><![CDATA[{}]]></component>
+  <component name="KubernetesApiProvider"><![CDATA[{
+  "isMigrated": true
+}]]></component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 0
@@ -63,15 +69,7 @@
       <workItem from="1761064916319" duration="19147000" />
       <workItem from="1761143732575" duration="26892000" />
       <workItem from="1761225868868" duration="3474000" />
-      <workItem from="1761232258428" duration="16193000" />
-    </task>
-    <task id="LOCAL-00055" summary="🔷 Se aagrega caso de rotacion izquierda del este al sur">
-      <option name="closed" value="true" />
-      <created>1761155687496</created>
-      <option name="number" value="00055" />
-      <option name="presentableId" value="LOCAL-00055" />
-      <option name="project" value="LOCAL" />
-      <updated>1761155687496</updated>
+      <workItem from="1761232258428" duration="19581000" />
     </task>
     <task id="LOCAL-00056" summary="🔴Si_OrientacionEsSurYGiroIzquierda_Debe_OrientarseAlEsteEnCoordenada00E">
       <option name="closed" value="true" />
@@ -457,7 +455,15 @@
       <option name="project" value="LOCAL" />
       <updated>1761254924598</updated>
     </task>
-    <option name="localTasksCounter" value="104" />
+    <task id="LOCAL-00104" summary="✅Si_AterrizoUnRovertEnLaCoordenada00N_Debe_Retornar_ValorR">
+      <option name="closed" value="true" />
+      <created>1761255276600</created>
+      <option name="number" value="00104" />
+      <option name="presentableId" value="LOCAL-00104" />
+      <option name="project" value="LOCAL" />
+      <updated>1761255276600</updated>
+    </task>
+    <option name="localTasksCounter" value="105" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -467,7 +473,6 @@
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value="✅ Si_SuperoElLimiteEnYHaciaElNorte_Debe_RetornarLaCoordenada00N" />
     <MESSAGE value=" Si_SuperaElLimiteEnYHaciaElSur_Debe_RetornarLaCordenanda09S" />
     <MESSAGE value="✅ Si_SuperaElLimiteEnYHaciaElSur_Debe_RetornarLaCordenanda09S" />
     <MESSAGE value=" Se agregan constantes para identificar los  limites Norte y Sur" />
@@ -492,7 +497,8 @@
     <MESSAGE value="✅ Si_RecibeUnaCoordernadaMenorDelLimiteY_Debe_LanzarUnaExcepcion" />
     <MESSAGE value=" Se centraliza la validacion de los limites" />
     <MESSAGE value="Si_AterrizoUnRovertEnLaCoordenada00N_Debe_Retornar_ValorR" />
-    <option name="LAST_COMMIT_MESSAGE" value="Si_AterrizoUnRovertEnLaCoordenada00N_Debe_Retornar_ValorR" />
+    <MESSAGE value="✅Si_AterrizoUnRovertEnLaCoordenada00N_Debe_Retornar_ValorR" />
+    <option name="LAST_COMMIT_MESSAGE" value="✅Si_AterrizoUnRovertEnLaCoordenada00N_Debe_Retornar_ValorR" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
