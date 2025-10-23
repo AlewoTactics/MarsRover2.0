@@ -63,6 +63,6 @@ public class CoordenadaTest
         Action action = () => coordenada.crearElemento(0, "R");
 
         //Assert
-        action.Should().Throw<ArgumentException>().WithMessage("*La posicision ya contiene un elemento*");
+        action.Should().Throw<ArgumentException>().WithMessage("*La posición ya contiene un elemento.*");
     }
 }

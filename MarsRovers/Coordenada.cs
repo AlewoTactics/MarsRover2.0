@@ -4,7 +4,7 @@ public class Coordenada
 {
     private readonly int _x;
     private string[] _campoEjeX;
-    
+
     private readonly int _y;
     private const int LimiteNorte = 9;
     private const int LimiteSur = 0;
@@ -17,20 +17,21 @@ public class Coordenada
         ValidarLimites(x, y);
         _x = x;
         _y = y;
-        _campoEjeX= new string[LimiteEste];
+        _campoEjeX = new string[LimiteEste];
     }
-    
+
     public void crearElemento(int x, string elemento)
     {
+        if (!string.IsNullOrEmpty(_campoEjeX[x]))
+            throw new ArgumentException("La posición ya contiene un elemento.");
         _campoEjeX[x] = elemento;
     }
-    
+
     public string ObtenerElemento(int x)
     {
         return _campoEjeX[x];
     }
 
-   
 
     private static void ValidarLimites(int x, int y)
     {
@@ -71,6 +72,4 @@ public class Coordenada
     private Coordenada TeletransportarseAlSur() => new(_x, LimiteSur);
     private Coordenada TeletransportarseAlEste() => new(LimiteEste, _y);
     private Coordenada TeletransportarseAlOeste() => new(LimiteOeste, _y);
-
-   
 }
