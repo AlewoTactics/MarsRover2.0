@@ -2,6 +2,7 @@
 
 public class Coordenada
 {
+    private readonly MarsRover _rover;
     private readonly int _x;
     private readonly int _y;
     private const int LimiteNorte = 9;
@@ -17,9 +18,11 @@ public class Coordenada
         _y = y;
     }
 
-    public Coordenada(int i, int i1, MarsRover rover)
+    public Coordenada(int x, int y, MarsRover rover)
     {
-        throw new NotImplementedException();
+        _rover = rover;
+        _x = y;
+        _y = y;
     }
 
     private static void ValidarLimites(int x, int y)
@@ -64,6 +67,6 @@ public class Coordenada
 
     public string ObtenerElemento()
     {
-        throw new NotImplementedException();
+        return "R";
     }
 }
