@@ -1,10 +1,10 @@
 ﻿using FluentAssertions;
+using Xunit.Sdk;
 
 namespace MarsRovers;
 
 public class CoordenadaTest
 {
-
     [Fact]
     public void Si_RecibeUnaCoordernadaMayorDelLimiteX_Debe_LanzarUnaExcepcion()
     {
@@ -33,24 +33,36 @@ public class CoordenadaTest
             .Throw<ArgumentOutOfRangeException>()
             .WithMessage("*La coordenada en y (12) no se encuentra en el rango de la plataforma*");
     }
-    
+
     [Fact]
     public void Si_RecibeUnaCoordernadaMenorDelLimiteY_Debe_LanzarUnaExcepcion()
     {
-        Action coordenada =()=> new Coordenada(0, -1);
-        
+        Action coordenada = () => new Coordenada(0, -1);
+
         coordenada.Should()
-            .Throw<ArgumentOutOfRangeException>().WithMessage("*La coordenada en y (-1) no se encuentra en el rango de la plataforma*"); 
+            .Throw<ArgumentOutOfRangeException>()
+            .WithMessage("*La coordenada en y (-1) no se encuentra en el rango de la plataforma*");
     }
 
     [Fact]
     public void Si_AterrizoUnRovertEnLaCoordenada00N_Debe_Retornar_ValorR()
     {
-        
-        var coordenada = new Coordenada(0,0);
-        coordenada.crearElemento(0,"R");
+        var coordenada = new Coordenada(0, 0);
+        coordenada.crearElemento(0, "R");
         coordenada.ObtenerElemento(0).Should().Be("R");
     }
 
-}
+    [Fact]
+    public void Si_AterrizoElRoverEnUnaCoordenadaQueYaContieneUnElemento_Debe_RetornarUnaExcepcion()
+    {
+        //Arrange
+        var coordenada = new Coordenada(0, 0);
+        coordenada.crearElemento(0, "R");
 
+        //Action
+        Action action = () => coordenada.crearElemento(0, "R");
+
+        //Assert
+        action.Should().Throw<ArgumentException>().WithMessage("*La posicision ya contiene un elemento*");
+    }
+}

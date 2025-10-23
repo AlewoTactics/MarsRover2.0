@@ -5,8 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="df522766-fe64-4992-a8d8-fa8d24149c16" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.MarsRovers/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MarsRovers/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MarsRovers/Coordenada.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MarsRovers/Coordenada.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MarsRovers/CoordenadaTest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MarsRovers/CoordenadaTest.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -69,15 +67,7 @@
       <workItem from="1761064916319" duration="19147000" />
       <workItem from="1761143732575" duration="26892000" />
       <workItem from="1761225868868" duration="3474000" />
-      <workItem from="1761232258428" duration="19581000" />
-    </task>
-    <task id="LOCAL-00056" summary="🔴Si_OrientacionEsSurYGiroIzquierda_Debe_OrientarseAlEsteEnCoordenada00E">
-      <option name="closed" value="true" />
-      <created>1761155843416</created>
-      <option name="number" value="00056" />
-      <option name="presentableId" value="LOCAL-00056" />
-      <option name="project" value="LOCAL" />
-      <updated>1761155843416</updated>
+      <workItem from="1761232258428" duration="20130000" />
     </task>
     <task id="LOCAL-00057" summary="✅Si_OrientacionEsOesteYGiroALaIzquierda_Debe_OrientarseAlSurEnCoordenada00S">
       <option name="closed" value="true" />
@@ -463,7 +453,15 @@
       <option name="project" value="LOCAL" />
       <updated>1761255276600</updated>
     </task>
-    <option name="localTasksCounter" value="105" />
+    <task id="LOCAL-00105" summary="🔷definicion de almacenamientos de objeto en plano">
+      <option name="closed" value="true" />
+      <created>1761258704600</created>
+      <option name="number" value="00105" />
+      <option name="presentableId" value="LOCAL-00105" />
+      <option name="project" value="LOCAL" />
+      <updated>1761258704600</updated>
+    </task>
+    <option name="localTasksCounter" value="106" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -473,7 +471,6 @@
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value=" Si_SuperaElLimiteEnYHaciaElSur_Debe_RetornarLaCordenanda09S" />
     <MESSAGE value="✅ Si_SuperaElLimiteEnYHaciaElSur_Debe_RetornarLaCordenanda09S" />
     <MESSAGE value=" Se agregan constantes para identificar los  limites Norte y Sur" />
     <MESSAGE value="Si_SuperaElLimiteEnXHaciaEste_Debe_RetornarLaCoordenada00E" />
@@ -498,7 +495,8 @@
     <MESSAGE value=" Se centraliza la validacion de los limites" />
     <MESSAGE value="Si_AterrizoUnRovertEnLaCoordenada00N_Debe_Retornar_ValorR" />
     <MESSAGE value="✅Si_AterrizoUnRovertEnLaCoordenada00N_Debe_Retornar_ValorR" />
-    <option name="LAST_COMMIT_MESSAGE" value="✅Si_AterrizoUnRovertEnLaCoordenada00N_Debe_Retornar_ValorR" />
+    <MESSAGE value="definicion de almacenamientos de objeto en plano" />
+    <option name="LAST_COMMIT_MESSAGE" value="definicion de almacenamientos de objeto en plano" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
