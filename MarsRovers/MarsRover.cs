@@ -14,7 +14,8 @@ public class MarsRover
 
     public MarsRover(Coordenada ubicacionInicial, PuntoCardinal orientacion)
     {
-        throw new NotImplementedException();
+        _coordenada = ubicacionInicial;
+        _orientacion = orientacion;
     }
 
     public string EjecutarComando(string comando)
