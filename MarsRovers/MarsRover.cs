@@ -7,12 +7,20 @@ public class MarsRover
     private Coordenada _coordenada = new(0, 0);
     private PuntoCardinal _orientacion = PuntoCardinal.Norte;
 
-    public MarsRover()
+    private MarsRover() { }
+
+    public static MarsRover UbicarEn00N()
     {
-        
+        return new MarsRover();
     }
 
-    public MarsRover(Coordenada ubicacionInicial, PuntoCardinal orientacion)
+    public static MarsRover UbicarEn(Coordenada ubicacionInicial, PuntoCardinal orientacionInicial)
+    {
+        return new MarsRover(ubicacionInicial, orientacionInicial);
+    }
+
+
+    private MarsRover(Coordenada ubicacionInicial, PuntoCardinal orientacion)
     {
         _coordenada = ubicacionInicial;
         _orientacion = orientacion;
@@ -29,7 +37,7 @@ public class MarsRover
                 case 'L': _orientacion = GirarIzquierda(); break;
             }
         }
-        
+
         return $"{_coordenada}:{(char)_orientacion}";
     }
 
@@ -38,10 +46,10 @@ public class MarsRover
     {
         return orientacionInicial switch
         {
-            PuntoCardinal.Norte => posicionInicial.IrAlNorte(), 
-            PuntoCardinal.Sur => posicionInicial.IrAlSur(), 
-            PuntoCardinal.Oeste => posicionInicial.IrAlOeste(), 
-            _ => posicionInicial.IrAlEste() 
+            PuntoCardinal.Norte => posicionInicial.IrAlNorte(),
+            PuntoCardinal.Sur => posicionInicial.IrAlSur(),
+            PuntoCardinal.Oeste => posicionInicial.IrAlOeste(),
+            _ => posicionInicial.IrAlEste()
         };
     }
 

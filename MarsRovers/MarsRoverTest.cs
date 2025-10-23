@@ -4,11 +4,11 @@ namespace MarsRovers;
 
 public class MarsRoverTest
 {
-    private MarsRover _marsRover;
+    private MarsRover _marsRoverEn00N;
     
     public MarsRoverTest()
     {
-         _marsRover = new MarsRover();     
+         _marsRoverEn00N = MarsRover.UbicarEn00N();
     }
     
     
@@ -23,7 +23,7 @@ public class MarsRoverTest
     [InlineData("LLLL","0:0:N")]
     public void Si_Gira_Debe_RetornarLaOrientacionCorrecta(string comando, string coordenadaEsperada)
     {
-        _marsRover.EjecutarComando(comando).Should().Be(coordenadaEsperada);
+        _marsRoverEn00N.EjecutarComando(comando).Should().Be(coordenadaEsperada);
     }
 
     [Theory]
@@ -33,7 +33,7 @@ public class MarsRoverTest
     [InlineData("RMLLM","0:0:W")] // Mover al este y volver al oeste
     public void Si_SeMueveDesdeSuOrientacion_Debe_RetornarLaCoordenadaCorrecta(string comando, string coordenadaEsperada)
     {
-        _marsRover.EjecutarComando(comando).Should().Be(coordenadaEsperada);
+        _marsRoverEn00N.EjecutarComando(comando).Should().Be(coordenadaEsperada);
         
     }
 
@@ -44,7 +44,7 @@ public class MarsRoverTest
     [InlineData("LM","9:0:W")] // Supera el limite oeste
     public void Si_SeMueveYPasaElLimite_Debe_Teletransportarse(string comando, string coordenadaEsperada)
     {
-        _marsRover.EjecutarComando(comando).Should().Be(coordenadaEsperada);
+        _marsRoverEn00N.EjecutarComando(comando).Should().Be(coordenadaEsperada);
     }
     
     [Fact]
@@ -53,7 +53,7 @@ public class MarsRoverTest
         //Arrange
       
         //act
-        var ubicacion =_marsRover.EjecutarComando("MMRMMLM");
+        var ubicacion =_marsRoverEn00N.EjecutarComando("MMRMMLM");
 
         //assert
         ubicacion.Should().Be("2:3:N");
@@ -65,10 +65,10 @@ public class MarsRoverTest
         // Arrange
         var ubicacionInicial = new Coordenada(0, 1);  
         var orientacion = PuntoCardinal.Sur;
-        _marsRover = new MarsRover(ubicacionInicial, orientacion);
+        var marsRover = MarsRover.UbicarEn(ubicacionInicial, orientacion);
 
         // Act
-        var posicionInicial = _marsRover.EjecutarComando("");
+        var posicionInicial = marsRover.EjecutarComando(string.Empty);
         //
         
         // Assert
