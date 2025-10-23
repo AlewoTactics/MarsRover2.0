@@ -14,6 +14,9 @@ public class Coordenada
     {
         if (x> LimiteEste)
             throw new ArgumentOutOfRangeException($"La coordenada en x ({x}) supera el límite máximo ({LimiteEste})");
+        if (x < LimiteOeste)
+            throw new ArgumentOutOfRangeException($"La coordenada en x ({x}) no se encuentra en el rango de la plataforma");
+        
         _x = x;
         _y = y;
     }
