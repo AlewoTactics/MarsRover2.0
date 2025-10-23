@@ -17,6 +17,11 @@ public class Coordenada
         _y = y;
     }
 
+    public Coordenada(int i, int i1, MarsRover rover)
+    {
+        throw new NotImplementedException();
+    }
+
     private static void ValidarLimites(int x, int y)
     {
         if (x > LimiteEste)
@@ -56,4 +61,9 @@ public class Coordenada
     private Coordenada TeletransportarseAlSur() => new(_x, LimiteSur);
     private Coordenada TeletransportarseAlEste() => new(LimiteEste, _y);
     private Coordenada TeletransportarseAlOeste() => new(LimiteOeste, _y);
+
+    public string ObtenerElemento()
+    {
+        throw new NotImplementedException();
+    }
 }

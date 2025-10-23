@@ -65,15 +65,7 @@
       <workItem from="1761064916319" duration="19147000" />
       <workItem from="1761143732575" duration="26892000" />
       <workItem from="1761225868868" duration="3474000" />
-      <workItem from="1761232258428" duration="14286000" />
-    </task>
-    <task id="LOCAL-00053" summary="🟥 Si_OrientacionEsOesteYGiroALaIzquierda_Debe_OrientarseAlSurEnCoordenada00S">
-      <option name="closed" value="true" />
-      <created>1761155207648</created>
-      <option name="number" value="00053" />
-      <option name="presentableId" value="LOCAL-00053" />
-      <option name="project" value="LOCAL" />
-      <updated>1761155207648</updated>
+      <workItem from="1761232258428" duration="15847000" />
     </task>
     <task id="LOCAL-00054" summary="🟩 Si_OrientacionEsOesteYGiroALaIzquierda_Debe_OrientarseAlSurEnCoordenada00S">
       <option name="closed" value="true" />
@@ -459,7 +451,15 @@
       <option name="project" value="LOCAL" />
       <updated>1761250880449</updated>
     </task>
-    <option name="localTasksCounter" value="102" />
+    <task id="LOCAL-00102" summary="🔷 Se centraliza la validacion de los limites">
+      <option name="closed" value="true" />
+      <created>1761253537767</created>
+      <option name="number" value="00102" />
+      <option name="presentableId" value="LOCAL-00102" />
+      <option name="project" value="LOCAL" />
+      <updated>1761253537767</updated>
+    </task>
+    <option name="localTasksCounter" value="103" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -469,7 +469,6 @@
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value=" Se crea objeto coordenada para calcular los puntos x y internamente" />
     <MESSAGE value=" Si_SuperoElLimiteEnYHaciaElNorte_Debe_RetornarLaCoordenada00N" />
     <MESSAGE value="✅ Si_SuperoElLimiteEnYHaciaElNorte_Debe_RetornarLaCoordenada00N" />
     <MESSAGE value=" Si_SuperaElLimiteEnYHaciaElSur_Debe_RetornarLaCordenanda09S" />
@@ -494,7 +493,8 @@
     <MESSAGE value="✅Si_RecibeUnaCoordernadaMayorDelLimiteY_Debe_LanzarUnaExcepcion" />
     <MESSAGE value=" Si_RecibeUnaCoordernadaMenorDelLimiteY_Debe_LanzarUnaExcepcion" />
     <MESSAGE value="✅ Si_RecibeUnaCoordernadaMenorDelLimiteY_Debe_LanzarUnaExcepcion" />
-    <option name="LAST_COMMIT_MESSAGE" value="✅ Si_RecibeUnaCoordernadaMenorDelLimiteY_Debe_LanzarUnaExcepcion" />
+    <MESSAGE value=" Se centraliza la validacion de los limites" />
+    <option name="LAST_COMMIT_MESSAGE" value=" Se centraliza la validacion de los limites" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
