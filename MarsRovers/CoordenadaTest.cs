@@ -73,4 +73,19 @@ public class CoordenadaTest
         coordenada.AsignarElementoEnY(1, "R");
         coordenada.ObtenerElementoEnY(1).Should().Be("R");
     }
+    
+    [Fact]
+    public void Si_AterrizoElRoverEnUnaCoordenadaYQueYaContieneUnElemento_Debe_RetornarUnaExcepcion()
+    {
+        //Arrange
+        var coordenada = new Coordenada(0, 0);
+        coordenada.AsignarElementoEnY(1, "R");
+
+        //Action
+        Action action = () => coordenada.AsignarElementoEnY(1, "R");
+
+        //Assert
+        action.Should().Throw<ArgumentException>().WithMessage("*La posición ya contiene un elemento.*");
+    }
+    
 }
