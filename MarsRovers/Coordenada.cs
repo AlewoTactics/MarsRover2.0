@@ -1,33 +1,46 @@
 ﻿namespace MarsRovers;
 
-public class Coordenada(int x, int y)
+public class Coordenada
 {
+    private readonly int _x;
+    private readonly int _y;
     private const int LimiteNorte = 9;
     private const int LimiteSur = 0;
     private const int LimiteEste = 9;
     private const int LimiteOeste = 0;
     private const int MagnitudDesplazamiento = 1;
-    public override string ToString() => $"{x}:{y}";
+    
+    public Coordenada(int x, int y)
+    {
+        if (LimiteEste < x)
+            throw new ArgumentOutOfRangeException("La coordenada supera el límite máximo 9");
+        _x = x;
+        _y = y;
+    }
 
+   
+    public override string ToString() => $"{_x}:{_y}";
+
+   
     public Coordenada IrAlNorte() => EstaEnLimiteNorte() ? TeletransportarseAlSur() : AvanzarAlNorte();
     public Coordenada IrAlSur() => EstaEnLimiteSur() ? TeletransportarseAlNorte() : AvanzarAlSur();
     public Coordenada IrAlEste() => EstaEnLimiteEste() ? TeletransportarseAlOeste() : AvanzarAlEste();
     public Coordenada IrAlOeste() => EstaEnLimiteOeste() ? TeletransportarseAlEste() : AvanzarAlOeste();
 
 
-    private bool EstaEnLimiteNorte() => y == LimiteNorte;
-    private bool EstaEnLimiteSur() => y == LimiteSur;
-    private bool EstaEnLimiteEste() => x == LimiteEste;
-    private bool EstaEnLimiteOeste() => x == LimiteOeste;
+    private bool EstaEnLimiteNorte() => _y == LimiteNorte;
+    private bool EstaEnLimiteSur() => _y == LimiteSur;
+    private bool EstaEnLimiteEste() => _x == LimiteEste;
+    private bool EstaEnLimiteOeste() => _x == LimiteOeste;
     
-    private Coordenada AvanzarAlNorte() => new(x, y + MagnitudDesplazamiento);
-    private Coordenada AvanzarAlOeste() => new(x - MagnitudDesplazamiento, y);
-    private Coordenada AvanzarAlSur() => new(x, y - MagnitudDesplazamiento);
-    private Coordenada AvanzarAlEste() => new(x + MagnitudDesplazamiento, y);
+    private Coordenada AvanzarAlNorte() => new(_x, _y + MagnitudDesplazamiento);
+    private Coordenada AvanzarAlOeste() => new(_x - MagnitudDesplazamiento, _y);
+    private Coordenada AvanzarAlSur() => new(_x, _y - MagnitudDesplazamiento);
+    private Coordenada AvanzarAlEste() => new(_x + MagnitudDesplazamiento, _y);
     
-    private Coordenada TeletransportarseAlNorte() => new(x, LimiteNorte);
-    private Coordenada TeletransportarseAlSur() => new(x, LimiteSur);
-    private Coordenada TeletransportarseAlEste() => new(LimiteEste, y);
-    private Coordenada TeletransportarseAlOeste() => new(LimiteOeste, y);
+    private Coordenada TeletransportarseAlNorte() => new(_x, LimiteNorte);
+    private Coordenada TeletransportarseAlSur() => new(_x, LimiteSur);
+    private Coordenada TeletransportarseAlEste() => new(LimiteEste, _y);
+    private Coordenada TeletransportarseAlOeste() => new(LimiteOeste, _y);
 
 }

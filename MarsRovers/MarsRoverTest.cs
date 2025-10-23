@@ -79,9 +79,10 @@ public class MarsRoverTest
     public void Si_RecibeUnaCoordernadaFueraDelLimite_Debe_LazarUnaExcepcion()
     {
         Action coordena =()=> new Coordenada(12, 0);
-        
-        coordena.Should().Throw<ArgumentOutOfRangeException>().WithMessage("La coordenada supera el límite máximo 9");
-        
+
+        coordena.Should()
+            .Throw<ArgumentOutOfRangeException>().WithMessage("*La coordenada supera el límite máximo 9*"); 
+
     }
     
 }
