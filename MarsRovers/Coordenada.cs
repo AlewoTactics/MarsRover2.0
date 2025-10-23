@@ -12,6 +12,13 @@ public class Coordenada
 
     public Coordenada(int x, int y)
     {
+        ValidarLimites(x, y);
+        _x = x;
+        _y = y;
+    }
+
+    private static void ValidarLimites(int x, int y)
+    {
         if (x > LimiteEste)
             throw new ArgumentOutOfRangeException($"La coordenada en x ({x}) supera el límite máximo ({LimiteEste})");
         if (x < LimiteOeste)
@@ -23,8 +30,6 @@ public class Coordenada
         if (y < LimiteSur)
             throw new ArgumentOutOfRangeException(
                 $"La coordenada en y ({y}) no se encuentra en el rango de la plataforma");
-        _x = x;
-        _y = y;
     }
 
 

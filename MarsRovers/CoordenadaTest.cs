@@ -42,5 +42,7 @@ public class CoordenadaTest
         coordenada.Should()
             .Throw<ArgumentOutOfRangeException>().WithMessage("*La coordenada en y (-1) no se encuentra en el rango de la plataforma*"); 
     }
+    
+    
 
 }

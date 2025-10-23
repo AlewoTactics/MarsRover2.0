@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="df522766-fe64-4992-a8d8-fa8d24149c16" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.MarsRovers/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MarsRovers/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MarsRovers/Coordenada.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MarsRovers/Coordenada.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MarsRovers/CoordenadaTest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MarsRovers/CoordenadaTest.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -24,6 +25,7 @@
     <setting file="mock://C:/Users/julian.vargas/Desktop/TDD/MarsRover2.0/MarsRovers/CoordenadaTest.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://C:/Users/julian.vargas/Desktop/TDD/MarsRover2.0/MarsRovers/MarsRover.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://C:/Users/julian.vargas/Desktop/TDD/MarsRover2.0/MarsRovers/MarsRover.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/MarsRovers/PlataformaTest.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProjectColorInfo">{
@@ -63,23 +65,7 @@
       <workItem from="1761064916319" duration="19147000" />
       <workItem from="1761143732575" duration="26892000" />
       <workItem from="1761225868868" duration="3474000" />
-      <workItem from="1761232258428" duration="11707000" />
-    </task>
-    <task id="LOCAL-00051" summary="🟩 Si_OrientacionEsNorteYGiroAlaIzquierda_Debe_OrientarseAlEsteEnCoordenada00W">
-      <option name="closed" value="true" />
-      <created>1761153606118</created>
-      <option name="number" value="00051" />
-      <option name="presentableId" value="LOCAL-00051" />
-      <option name="project" value="LOCAL" />
-      <updated>1761153606118</updated>
-    </task>
-    <task id="LOCAL-00052" summary="🟦 Se implementa metodo que asigna la orientacion">
-      <option name="closed" value="true" />
-      <created>1761155034692</created>
-      <option name="number" value="00052" />
-      <option name="presentableId" value="LOCAL-00052" />
-      <option name="project" value="LOCAL" />
-      <updated>1761155034692</updated>
+      <workItem from="1761232258428" duration="14286000" />
     </task>
     <task id="LOCAL-00053" summary="🟥 Si_OrientacionEsOesteYGiroALaIzquierda_Debe_OrientarseAlSurEnCoordenada00S">
       <option name="closed" value="true" />
@@ -457,7 +443,23 @@
       <option name="project" value="LOCAL" />
       <updated>1761249829275</updated>
     </task>
-    <option name="localTasksCounter" value="100" />
+    <task id="LOCAL-00100" summary="🔴 Si_RecibeUnaCoordernadaMenorDelLimiteY_Debe_LanzarUnaExcepcion">
+      <option name="closed" value="true" />
+      <created>1761250782589</created>
+      <option name="number" value="00100" />
+      <option name="presentableId" value="LOCAL-00100" />
+      <option name="project" value="LOCAL" />
+      <updated>1761250782589</updated>
+    </task>
+    <task id="LOCAL-00101" summary="✅ Si_RecibeUnaCoordernadaMenorDelLimiteY_Debe_LanzarUnaExcepcion">
+      <option name="closed" value="true" />
+      <created>1761250880449</created>
+      <option name="number" value="00101" />
+      <option name="presentableId" value="LOCAL-00101" />
+      <option name="project" value="LOCAL" />
+      <updated>1761250880449</updated>
+    </task>
+    <option name="localTasksCounter" value="102" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -467,8 +469,6 @@
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value=" Si_ReciboElComandoMMRMMLM_Debe_RetornarLaCoordenada23N" />
-    <MESSAGE value="Si_ReciboElComandoMMRMMLM_Debe_RetornarLaCoordenada23N" />
     <MESSAGE value=" Se crea objeto coordenada para calcular los puntos x y internamente" />
     <MESSAGE value=" Si_SuperoElLimiteEnYHaciaElNorte_Debe_RetornarLaCoordenada00N" />
     <MESSAGE value="✅ Si_SuperoElLimiteEnYHaciaElNorte_Debe_RetornarLaCoordenada00N" />
@@ -492,7 +492,9 @@
     <MESSAGE value="✅Si_RecibeUnaCoordernadaMenorDelLimiteX_Debe_LanzarUnaExcepcion" />
     <MESSAGE value="Si_RecibeUnaCoordernadaMayorDelLimiteY_Debe_LanzarUnaExcepcion" />
     <MESSAGE value="✅Si_RecibeUnaCoordernadaMayorDelLimiteY_Debe_LanzarUnaExcepcion" />
-    <option name="LAST_COMMIT_MESSAGE" value="✅Si_RecibeUnaCoordernadaMayorDelLimiteY_Debe_LanzarUnaExcepcion" />
+    <MESSAGE value=" Si_RecibeUnaCoordernadaMenorDelLimiteY_Debe_LanzarUnaExcepcion" />
+    <MESSAGE value="✅ Si_RecibeUnaCoordernadaMenorDelLimiteY_Debe_LanzarUnaExcepcion" />
+    <option name="LAST_COMMIT_MESSAGE" value="✅ Si_RecibeUnaCoordernadaMenorDelLimiteY_Debe_LanzarUnaExcepcion" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
