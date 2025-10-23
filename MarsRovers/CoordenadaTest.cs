@@ -48,7 +48,7 @@ public class CoordenadaTest
     public void Si_AterrizoUnRovertEnLaCoordenada00N_Debe_Retornar_ValorR()
     {
         var coordenada = new Coordenada(0, 0);
-        coordenada.crearElemento(0, "R");
+        coordenada.AsignarElemento(0, "R");
         coordenada.ObtenerElemento(0).Should().Be("R");
     }
 
@@ -57,10 +57,10 @@ public class CoordenadaTest
     {
         //Arrange
         var coordenada = new Coordenada(0, 0);
-        coordenada.crearElemento(0, "R");
+        coordenada.AsignarElemento(0, "R");
 
         //Action
-        Action action = () => coordenada.crearElemento(0, "R");
+        Action action = () => coordenada.AsignarElemento(0, "R");
 
         //Assert
         action.Should().Throw<ArgumentException>().WithMessage("*La posición ya contiene un elemento.*");

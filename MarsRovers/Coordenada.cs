@@ -20,7 +20,7 @@ public class Coordenada
         _campoEjeX = new string[LimiteEste];
     }
 
-    public void crearElemento(int x, string elemento)
+    public void AsignarElemento(int x, string elemento)
     {
         if (!string.IsNullOrEmpty(_campoEjeX[x]))
             throw new ArgumentException("La posición ya contiene un elemento.");
