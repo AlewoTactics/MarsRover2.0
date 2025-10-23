@@ -58,4 +58,21 @@ public class MarsRoverTest
         //assert
         ubicacion.Should().Be("2:3:N");
     }
+
+    [Fact]
+    public void  Si_RecibeLaCoordeanada01S_Debe_iniciarEnEsaUbicacion()
+    {
+        // Arrange
+        var ubicacionInicial = new Coordenada(0, 1);  
+        var orientacion = PuntoCardinal.Sur;
+        _marsRover = new MarsRover(ubicacionInicial, orientacion);
+
+        // Act
+        var posicionInicial = _marsRover.EjecutarComando("");
+        //
+        
+        // Assert
+        posicionInicial.Should().Be("0:1:S");
+    }
+    
 }

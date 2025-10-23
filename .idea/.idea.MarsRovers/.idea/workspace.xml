@@ -6,8 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="df522766-fe64-4992-a8d8-fa8d24149c16" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.MarsRovers/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MarsRovers/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MarsRovers/Coordenada.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MarsRovers/Coordenada.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MarsRovers/MarsRover.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MarsRovers/MarsRover.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MarsRovers/MarsRoverTest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MarsRovers/MarsRoverTest.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MarsRovers/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/MarsRovers/readme.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,25 +40,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "cf279b28-a1df-4237-b911-d8c3cc1a875a.executor": "Debug",
-    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
-    "git-widget-placeholder": "main",
-    "junie.onboarding.icon.badge.shown": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "to.speed.mode.migration.done": "true",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;cf279b28-a1df-4237-b911-d8c3cc1a875a.executor&quot;: &quot;Debug&quot;,
+    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="df522766-fe64-4992-a8d8-fa8d24149c16" name="Changes" comment="" />
@@ -66,15 +67,9 @@
       <option name="presentableId" value="Default" />
       <updated>1761064915068</updated>
       <workItem from="1761064916319" duration="19147000" />
-      <workItem from="1761143732575" duration="26518000" />
-    </task>
-    <task id="LOCAL-00039" summary="🟩 Si_ElComandoEsR_Debe_Retornar00E">
-      <option name="closed" value="true" />
-      <created>1761150802759</created>
-      <option name="number" value="00039" />
-      <option name="presentableId" value="LOCAL-00039" />
-      <option name="project" value="LOCAL" />
-      <updated>1761150802759</updated>
+      <workItem from="1761143732575" duration="26892000" />
+      <workItem from="1761225868868" duration="3474000" />
+      <workItem from="1761232258428" duration="3336000" />
     </task>
     <task id="LOCAL-00040" summary="🟦 Se define las propiedades de ubicacion y posicion para obtener su ubicacion">
       <option name="closed" value="true" />
@@ -460,7 +455,15 @@
       <option name="project" value="LOCAL" />
       <updated>1761173164392</updated>
     </task>
-    <option name="localTasksCounter" value="88" />
+    <task id="LOCAL-00088" summary="🔷 Refactorizacion de los casos de pruebas">
+      <option name="closed" value="true" />
+      <created>1761176990522</created>
+      <option name="number" value="00088" />
+      <option name="presentableId" value="LOCAL-00088" />
+      <option name="project" value="LOCAL" />
+      <updated>1761176990522</updated>
+    </task>
+    <option name="localTasksCounter" value="89" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -470,7 +473,6 @@
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value="✅ Si_OrientacionEsNorteYAvanzoUnaPosicion_Debe_MoverseALaCoordenada01N" />
     <MESSAGE value=" Se realiza movimiento en posicion Y" />
     <MESSAGE value=" Si_OrientacionEsEsteYAvanzoUnaPosicion_Debe_MoverseALaCoordenada10E" />
     <MESSAGE value="✅ Si_OrientacionEsEsteYAvanzoUnaPosicion_Debe_MoverseALaCoordenada10E" />
@@ -495,7 +497,8 @@
     <MESSAGE value="Se agrega constate con valor de limite al este y limite al oeste" />
     <MESSAGE value="Si_SuperaElLimiteEnXHaciaOEste_Debe_RetornarLaCoordenada90W" />
     <MESSAGE value="✅Si_SuperaElLimiteEnXHaciaOEste_Debe_RetornarLaCoordenada90W" />
-    <option name="LAST_COMMIT_MESSAGE" value="✅Si_SuperaElLimiteEnXHaciaOEste_Debe_RetornarLaCoordenada90W" />
+    <MESSAGE value=" Refactorizacion de los casos de pruebas" />
+    <option name="LAST_COMMIT_MESSAGE" value=" Refactorizacion de los casos de pruebas" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -7,6 +7,16 @@ public class MarsRover
     private Coordenada _coordenada = new(0, 0);
     private PuntoCardinal _orientacion = PuntoCardinal.Norte;
 
+    public MarsRover()
+    {
+        
+    }
+
+    public MarsRover(Coordenada ubicacionInicial, PuntoCardinal orientacion)
+    {
+        throw new NotImplementedException();
+    }
+
     public string EjecutarComando(string comando)
     {
         foreach (char instruccion in comando)
