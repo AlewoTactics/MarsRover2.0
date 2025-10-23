@@ -8,11 +8,9 @@
 
 # MarsRover 2.0
 
-- [ ] Iniciar desde cualquier posicion
+- [X] Iniciar desde cualquier posicion
 - [ ] Detectar obstaculos
 - [ ] Detener si hay un obstaculos
 - [ ] Reportar obstaculos
 - [ ] Definir el tamaño de la plataforma
-- 
-- 
 

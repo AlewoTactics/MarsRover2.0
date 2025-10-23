@@ -74,5 +74,20 @@ public class MarsRoverTest
         // Assert
         posicionInicial.Should().Be("0:1:S");
     }
+
+    [Fact]
+    public void Si_RecibeUnaCoordernadaFueraDelLimite_Debe_LazarUnaExcepcion()
+    {
+        // Arrange
+        var ubicacionInicial = new Coordenada(12, 1);  
+        var orientacion = PuntoCardinal.Sur;
+        
+        //Act
+        Action marsRover =()=> MarsRover.UbicarEn(ubicacionInicial, orientacion);
+        
+        //Assert
+        marsRover.Should().Throw<ArgumentException>().WithMessage("Esta fuera del limite");
+
+    }
     
 }

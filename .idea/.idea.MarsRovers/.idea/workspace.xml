@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="df522766-fe64-4992-a8d8-fa8d24149c16" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.MarsRovers/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MarsRovers/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MarsRovers/MarsRover.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MarsRovers/MarsRover.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MarsRovers/MarsRoverTest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MarsRovers/MarsRoverTest.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MarsRovers/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/MarsRovers/readme.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,15 +61,7 @@
       <workItem from="1761064916319" duration="19147000" />
       <workItem from="1761143732575" duration="26892000" />
       <workItem from="1761225868868" duration="3474000" />
-      <workItem from="1761232258428" duration="4577000" />
-    </task>
-    <task id="LOCAL-00042" summary="🟥 Si_OrientacionEsEsteYGiroAlaDerecha_Debe_OrientarseAlEsteEnCoordenada00S">
-      <option name="closed" value="true" />
-      <created>1761151888437</created>
-      <option name="number" value="00042" />
-      <option name="presentableId" value="LOCAL-00042" />
-      <option name="project" value="LOCAL" />
-      <updated>1761151888437</updated>
+      <workItem from="1761232258428" duration="5615000" />
     </task>
     <task id="LOCAL-00043" summary="🟩 Si_OrientacionEsEsteYGiroAlaDerecha_Debe_OrientarseAlEsteEnCoordenada00S">
       <option name="closed" value="true" />
@@ -456,7 +447,15 @@
       <option name="project" value="LOCAL" />
       <updated>1761238102173</updated>
     </task>
-    <option name="localTasksCounter" value="91" />
+    <task id="LOCAL-00091" summary="🔷 Se crean metodos estaticos que indica en que posicion inicia el mars rover">
+      <option name="closed" value="true" />
+      <created>1761239380449</created>
+      <option name="number" value="00091" />
+      <option name="presentableId" value="LOCAL-00091" />
+      <option name="project" value="LOCAL" />
+      <updated>1761239380449</updated>
+    </task>
+    <option name="localTasksCounter" value="92" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -466,7 +465,6 @@
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value="✅ Si_OrientacionEsEsteYAvanzoUnaPosicion_Debe_MoverseALaCoordenada10E" />
     <MESSAGE value=" Se cambio tipado de variable posicion x a entero" />
     <MESSAGE value=" SiLaPosicionEa01SYAvanzo_Debe_Retornar00S" />
     <MESSAGE value="✅ SiLaPosicionEa01SYAvanzo_Debe_Retornar00S" />
@@ -491,7 +489,8 @@
     <MESSAGE value=" Refactorizacion de los casos de pruebas" />
     <MESSAGE value=" Si_RecibeLaCoordeanada01S_Debe_iniciarEnEsaUbicacion" />
     <MESSAGE value="✅ Si_RecibeLaCoordeanada01S_Debe_iniciarEnEsaUbicacion" />
-    <option name="LAST_COMMIT_MESSAGE" value="✅ Si_RecibeLaCoordeanada01S_Debe_iniciarEnEsaUbicacion" />
+    <MESSAGE value=" Se crean metodos estaticos que indica en que posicion inicia el mars rover" />
+    <option name="LAST_COMMIT_MESSAGE" value=" Se crean metodos estaticos que indica en que posicion inicia el mars rover" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
