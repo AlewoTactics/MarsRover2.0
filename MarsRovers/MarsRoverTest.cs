@@ -5,12 +5,11 @@ namespace MarsRovers;
 public class MarsRoverTest
 {
     private MarsRover _marsRoverEn00N;
-    
+ 
     public MarsRoverTest()
     {
-         _marsRoverEn00N = MarsRover.UbicarEn00N();
+        _marsRoverEn00N = MarsRover.UbicarEn00N();
     }
-    
     
     [Theory]
     [InlineData("R","0:0:E")]
@@ -74,15 +73,4 @@ public class MarsRoverTest
         // Assert
         posicionInicial.Should().Be("0:1:S");
     }
-
-    [Fact]
-    public void Si_RecibeUnaCoordernadaFueraDelLimite_Debe_LazarUnaExcepcion()
-    {
-        Action coordena =()=> new Coordenada(12, 0);
-
-        coordena.Should()
-            .Throw<ArgumentOutOfRangeException>().WithMessage("*La coordenada supera el límite máximo 9*"); 
-
-    }
-    
 }

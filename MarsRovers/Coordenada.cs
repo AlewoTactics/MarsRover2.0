@@ -12,8 +12,8 @@ public class Coordenada
     
     public Coordenada(int x, int y)
     {
-        if (LimiteEste < x)
-            throw new ArgumentOutOfRangeException("La coordenada supera el límite máximo 9");
+        if (x> LimiteEste)
+            throw new ArgumentOutOfRangeException($"La coordenada en x ({x}) supera el límite máximo ({LimiteEste})");
         _x = x;
         _y = y;
     }
